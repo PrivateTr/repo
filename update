@@ -1,6 +1,6 @@
 #!/bin/sh
 opkg remove enigma2-plugin-extensions-remyteam-premium
-curl https://archive.org/download/enigma2-plugin-extensions-remyteam-premium_V5.2_all/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk
+curl https://archive.org/download/enigma2-plugin-extensions-remyteam-premium_v5.2_all_201910/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk
 echo "    ***  REMY_TEAM v5.2 SURUMU KURULUYOR ***"
 sleep 1
 opkg --force-overwrite install /tmp/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk
