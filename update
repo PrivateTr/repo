@@ -1,0 +1,11 @@
+#!/bin/sh
+opkg remove enigma2-plugin-extensions-remyteam-premium
+curl https://archive.org/download/enigma2-plugin-extensions-remyteam-premium_V5.2_all/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk
+echo "    ***  REMY_TEAM v5.2 SURUMU KURULUYOR ***"
+sleep 1
+opkg --force-overwrite install /tmp/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-extensions-remyteam-premium_V5.2_all.ipk
+echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
+echo  'https://www.youtube.com/c/ReMyTr'
+sleep 2
+killall -9 enigma2
