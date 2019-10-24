@@ -1,0 +1,9 @@
+#!/bin/sh
+opkg remove enigma2-plugin-extensions--turkvod
+curl https://archive.org/download/enigma2-plugin-extensions-turkvod_10.2_all/enigma2-plugin-extensions-turkvod_10.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-turkvod_10.2_all.ipk > /dev/null
+opkg --force-overwrite install /tmp/enigma2-plugin-extensions-turkvod_10.2_all.ipk
+opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-extensions-turkvod_10.2_all.ipk
+echo ""
+echo "    ***  TURKVODA GIRINCE SARI TUSA BASINIZ ***"
+sleep 2
+killall -9 enigma2

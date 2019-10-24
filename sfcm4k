@@ -1,0 +1,13 @@
+#!/bin/sh
+opkg remove enigma2-plugin-softcams-remy-softcamapp-arm-4k
+rm -rf /usr/camscript > /dev/null
+curl https://archive.org/download/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk -Lko /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
+opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
+rm -rf /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk > /dev/null
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/SoftCam.Key -Lko /etc/tuxbox/config/SoftCam.Key
+/usr/bin/oscam  -b -c /etc/tuxbox/config
+echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
+echo  'https://www.youtube.com/c/ReMyTr'
+sleep 2
+killall -9 enigma2

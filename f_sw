@@ -1,0 +1,10 @@
+#!/bin/sh
+opkg remove enigma2-plugin-extensions-freecccam
+curl https://archive.org/download/enigma2-plugin-extensions-freecccam_5.0_all/enigma2-plugin-extensions-freecccam_5.0_all.ipk -Lko /tmp/enigma2-plugin-extensions-freecccam_5.0_all.ipk
+opkg --force-overwrite install /tmp/enigma2-plugin-extensions-freecccam_5.0_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-extensions-freecccam_5.0_all.ipk
+rm -rf /tmp/enigma2-plugin-extensions-freecccam_5.0_all.ipk > /dev/null
+echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
+echo  'https://www.youtube.com/c/ReMyTr'
+sleep 2
+killall -9 enigma2

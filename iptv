@@ -1,0 +1,10 @@
+#!/bin/sh
+curl https://archive.org/download/iptv_20191024_201910/iptv -Lko /tmp/iptv && chmod 0755 /tmp/iptv && /tmp/iptv && rm -f /tmp/iptv > /dev/null 2>&1
+rm -rf /tmp/iptv
+rm -rf /etc/enigma2/*.del > /dev/null
+rm -rf /etc/enigma2/*.tv_org
+rm -rf /etc/enigma2/*.tv_bak
+echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
+echo  'https://www.youtube.com/c/ReMyTr'
+sleep 2
+killall -9 enigma2
