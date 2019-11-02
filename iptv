@@ -25,3 +25,7 @@ wget -O /tmp/iptv1.m3u "http://qqtv.nl:8080/get.php?username=TmbUeUSQJ3&password
 wget -O /tmp/iptv2.m3u "http://tvservice.pro:80/get.php?username=919024311539&password=3695578746&type=m3u"
 
 wget -O /tmp/iptv3.m3u "http://tv.fast-iptv.info:12974/get.php?username=vQCsltW5Ie&password=PnSVtgXTKV&type=m3u"
+
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvList.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/ReMy_IpTvList.m3u"
+
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/XXpremium.m3u"
