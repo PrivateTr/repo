@@ -24,18 +24,18 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/XXpremium.m3u"
 
-wget -O /tmp/siptv-online.m3u "http://siptv-online.com:8789/get.php?username=19865&password=19865&type=m3u"
-
 wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=919024311539&password=3695578746&type=m3u"
 
-wget -O /tmp/fast-iptv.m3u "http://tv.fast-iptv.info:12974/get.php?username=vQCsltW5Ie&password=PnSVtgXTKV&type=m3u"
+wget -O /tmp/vergratis.m3u "http://vergratis.ddns.net:25461/get.php?username=GRATIS&password=GRATIS&type=m3u"
 
-wget -O /tmp/BEIN1.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN1&password=GQEZOG45EAZR63&type=m3u"
+wget -O /tmp/BEIN9.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN9&password=N9YjKdd0MY&type=m3u"
 
-wget -O /tmp/BEIN2.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN2&password=x8ZD4RdhNm&type=m3u"
+wget -O /tmp/BEIN7.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN7&password=uVXyuCtM1h&type=m3u"
+
+wget -O /tmp/BEIN5.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN5&password=Awq87aGnqS&type=m3u"
 
 wget -O /tmp/BEIN3.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN3&password=0jWkR45MqZ&type=m3u"
 
-wget -O /tmp/BEIN4.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN4&password=SSMDSHFKod&type=m3u"
+wget -O /tmp/BEIN2.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN2&password=x8ZD4RdhNm&type=m3u"
 
-wget -O /tmp/BEIN5.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN5&password=Awq87aGnqS&type=m3u"
+wget -O /tmp/BEIN1.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN1&password=GQEZOG45EAZR63&type=m3u"
