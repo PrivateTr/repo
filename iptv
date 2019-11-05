@@ -28,6 +28,8 @@ wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Lati
 
 wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=919024311539&password=3695578746&type=m3u"
 
+wget -O /tmp/ipsat-pro.m3u "http://ipsat.pro:8080/get.php?username=e86UGmZTe9&password=D8op2GCIy7&type=m3u"
+
 wget -O /tmp/BEIN9.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN9&password=N9YjKdd0MY&type=m3u"
 
 wget -O /tmp/BEIN7.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN7&password=uVXyuCtM1h&type=m3u"
