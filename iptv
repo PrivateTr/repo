@@ -26,6 +26,8 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.
 
 wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Latin-04-11-2019.m3u"
 
+wget -O /tmp/bymovistar.m3u "http://bymovistar.es:9977/get.php?username=inter&password=inter&type=m3u"
+
 wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=919024311539&password=3695578746&type=m3u"
 
 wget -O /tmp/portugalpro.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceportugalpro1&password=4614432666&type=m3u"
