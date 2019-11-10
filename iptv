@@ -28,9 +28,13 @@ wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Lati
 
 wget -O /tmp/server_stablechannels_tv.m3u "http://server.stablechannels.tv:80/get.php?username=2zcvz1MvV&password=6uTwl80e1D&type=m3u"
 
-wget -O /tmp/tv_fast-iptv.m3u "http://tv.fast-iptv.info:12974/get.php?username=vQCsltW5Ie&password=PnSVtgXTKV&type=m3u"
+wget -O /tmp/fpro.m3u "http://fpro.webvps.de:25443/get.php?username=VPnFQTnUjY08&password=iH5OvATIFU&type=m3u"
+
+wget -O /tmp/uk4321.m3u "http://uk4321.com:25461/get.php?username=59491&password=UtPi7g5d&type=m3u"
 
 wget -O /tmp/v2pro.m3u "http://v2pro.online:8080/get.php?username=YX5thcWcon&password=EHdmqdaatf&type=m3u"
+
+wget -O /tmp/iptv4.m3u "http://iptv4.premium-stv.com:8000/get.php?username=SOURCESPORTSWORLDPRO2&password=fpB6wu4xIh&type=m3u"
 
 wget -O /tmp/BEIN9.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN9&password=N9YjKdd0MY&type=m3u"
 
