@@ -30,6 +30,8 @@ wget -O /tmp/server_stablechannels_tv.m3u "http://server.stablechannels.tv:80/ge
 
 wget -O /tmp/tv_fast-iptv.m3u "http://tv.fast-iptv.info:12974/get.php?username=vQCsltW5Ie&password=PnSVtgXTKV&type=m3u"
 
+wget -O /tmp/v2pro.m3u "http://v2pro.online:8080/get.php?username=YX5thcWcon&password=EHdmqdaatf&type=m3u"
+
 wget -O /tmp/BEIN9.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN9&password=N9YjKdd0MY&type=m3u"
 
 wget -O /tmp/BEIN7.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN7&password=uVXyuCtM1h&type=m3u"
