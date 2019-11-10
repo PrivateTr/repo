@@ -34,6 +34,8 @@ wget -O /tmp/uk4321.m3u "http://uk4321.com:25461/get.php?username=59491&password
 
 wget -O /tmp/v2pro.m3u "http://v2pro.online:8080/get.php?username=YX5thcWcon&password=EHdmqdaatf&type=m3u"
 
+wget -O /tmp/tv_sigma.m3u "http://tv.sigma-iptv.net:7000/get.php?username=lestulupes&password=icceTgfhaB&type=m3u"
+
 wget -O /tmp/iptv4.m3u "http://iptv4.premium-stv.com:8000/get.php?username=SOURCESPORTSWORLDPRO2&password=fpB6wu4xIh&type=m3u"
 
 wget -O /tmp/BEIN9.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN9&password=N9YjKdd0MY&type=m3u"
