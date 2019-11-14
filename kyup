@@ -1,11 +1,3 @@
 #!/bin/sh
 curl https://github.com/PrivateTr/Zone_enigma/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
 sleep 1
-echo ""
-echo "    ***  TUM KEYLER GUNCELLENDI ***"
-echo ""
-echo "    ***  OK VEYA EXIT TUSUNA BASINIZ ***"
-echo ""
-echo "    ***  SOFTCAMI VEYA UYDU ALICINIZ YENIDEN BASLATINIZ ***"
-echo ""
-exit 1
