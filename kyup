@@ -1,5 +1,5 @@
 #!/bin/sh
-curl https://github.com/PrivateTr/remyteam_5.2/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
 sleep 1
 echo ""
 echo "    ***  TUM KEYLER GUNCELLENDI ***"
