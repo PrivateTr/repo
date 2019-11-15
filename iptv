@@ -24,8 +24,6 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxyplus"
 
-wget -O /tmp/SupTv.m3u "https://bit.ly/2QsAQMa"
-
 wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Latin-04-11-2019.m3u"
 
 wget -O /tmp/RusIPTV.m3u "http://iptv.glav-noe.ru/RusIPTV.m3u?lp"
@@ -48,4 +46,5 @@ wget -O /tmp/BEIN2.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN2
 
 wget -O /tmp/BEIN1.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN1&password=GQEZOG45EAZR63&type=m3u"
 
+wget -O /tmp/SupTv.m3u "https://bit.ly/2QsAQMa"
 
