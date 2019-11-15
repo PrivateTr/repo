@@ -32,7 +32,7 @@ wget -O /tmp/RusIPTV18.m3u "http://iptv.glav-noe.ru/RusIPTV18.m3u?lp"
 
 wget -O /tmp/ESPCHPRO1.m3u "http://iptv4.premium-stv.com:8000/get.php?username=ESPCHPRO1&password=YzNiCJZsIA&type=m3u"
 
-wget -O /tmp/iptv4.m3u "http://iptv4.premium-stv.com:8000/get.php?username=SOURCESPORTSWORLDPRO2&password=fpB6wu4xIh&type=m3u"
+wget -O /tmp/SPORTS_WORLDPRO2.m3u "http://iptv4.premium-stv.com:8000/get.php?username=SOURCESPORTSWORLDPRO2&password=fpB6wu4xIh&type=m3u"
 
 wget -O /tmp/BEIN9.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN9&password=N9YjKdd0MY&type=m3u"
 
@@ -47,4 +47,6 @@ wget -O /tmp/BEIN2.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN2
 wget -O /tmp/BEIN1.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN1&password=GQEZOG45EAZR63&type=m3u"
 
 wget -O /tmp/SupTv.m3u "https://bit.ly/2QsAQMa"
+
+wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
