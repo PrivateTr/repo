@@ -20,11 +20,11 @@ bouquet="ReMy_PREMIUM_WORLD";directory="/etc/enigma2/iptv10.sh";url="https://arc
 
 bouquet="ReMy_TURKEY_VOD";directory="/etc/enigma2/iptv11.sh";url="https://archive.org/download/userbouquet.remy_iptv_18adult__tv_/userbouquet.ReMy_TURKEY_VOD__tv_.tv";rm /etc/enigma2/userbouquet."$bouquet"__tv_.tv;wget -O /etc/enigma2/userbouquet."$bouquet"__tv_.tv $url;if ! cat /etc/enigma2/bouquets.tv | grep -v grep | grep -c $bouquet > /dev/null;then echo "[+]Creating Folder for iptv and rehashing...";cat /etc/enigma2/bouquets.tv | sed -n 1p > /etc/enigma2/new_bouquets.tv;echo '#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.'$bouquet'__tv_.tv" ORDER BY bouquet' >> /etc/enigma2/new_bouquets.tv; cat /etc/enigma2/bouquets.tv | sed -n '2,$p' >> /etc/enigma2/new_bouquets.tv;rm /etc/enigma2/bouquets.tv;mv /etc/enigma2/new_bouquets.tv /etc/enigma2/bouquets.tv;fi;rm /usr/bin/enigma2_pre_start.sh;echo "writing to the file.. NO NEED FOR REBOOT";echo "/bin/sh "$directory" > /dev/null 2>&1 &" > /usr/bin/enigma2_pre_start.sh;chmod 777 /usr/bin/enigma2_pre_start.sh;wget -qO - "http://127.0.0.1/web/servicelistreload?mode=2";wget -qO - "http://127.0.0.1/web/servicelistreload?mode=2"; > /dev/null
 
-USERNAME="92S59b55s9BMT1";PASSWORD="dv99Kn4525LG51";bouquet="SupTv";directory="/etc/enigma2/iptv12.sh";url="http://viptv.accesss.me:25461/get.php?username=$USERNAME&password=$PASSWORD&type=dreambox&output=ts";rm /etc/enigma2/userbouquet."$bouquet"__tv_.tv;wget -O /etc/enigma2/userbouquet."$bouquet"__tv_.tv $url;if ! cat /etc/enigma2/bouquets.tv | grep -v grep | grep -c $bouquet > /dev/null;then echo "[+]Creating Folder for iptv and rehashing...";cat /etc/enigma2/bouquets.tv | sed -n 1p > /etc/enigma2/new_bouquets.tv;echo '#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.'$bouquet'__tv_.tv" ORDER BY bouquet' >> /etc/enigma2/new_bouquets.tv; cat /etc/enigma2/bouquets.tv | sed -n '2,$p' >> /etc/enigma2/new_bouquets.tv;rm /etc/enigma2/bouquets.tv;mv /etc/enigma2/new_bouquets.tv /etc/enigma2/bouquets.tv;fi;rm /usr/bin/enigma2_pre_start.sh;echo "writing to the file.. NO NEED FOR REBOOT";echo "/bin/sh "$directory" > /dev/null 2>&1 &" > /usr/bin/enigma2_pre_start.sh;chmod 777 /usr/bin/enigma2_pre_start.sh;wget -qO - "http://127.0.0.1/web/servicelistreload?mode=2";wget -qO - "http://127.0.0.1/web/servicelistreload?mode=2"; > /dev/null
-
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvList.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxy"
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxyplus"
+
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/SupTv.m3u "https://bit.ly/2QsAQMa"
 
 wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Latin-04-11-2019.m3u"
 
@@ -47,3 +47,5 @@ wget -O /tmp/BEIN3.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN3
 wget -O /tmp/BEIN2.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN2&password=x8ZD4RdhNm&type=m3u"
 
 wget -O /tmp/BEIN1.m3u "http://iptv2.premium-stv.com:8888/get.php?username=BEIN1&password=GQEZOG45EAZR63&type=m3u"
+
+
