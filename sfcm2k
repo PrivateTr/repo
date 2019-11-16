@@ -2,7 +2,7 @@
 opkg remove enigma2-plugin-softcams-remy-softcamapp-mips-fhd
 rm -rf /usr/camscript > /dev/null
 sleep 1
-curl https://archive.org/download/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk -Lko /tmp/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk
+curl https://download846.mediafire.com/jrx5vwyw6tvg/mml22hd5je9urzn/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk -Lko /tmp/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk
 sleep 1
 opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk
 opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk
