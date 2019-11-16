@@ -1,5 +1,5 @@
 #!/bin/sh
-curl https://archive.org/download/remy-rudream-crackbackup_V1.1_all/remy-rudream-crackbackup_V1.1_all.ipk -Lko /tmp/remy-rudream-crackbackup_V1.1_all.ipk
+curl https://download2262.mediafire.com/hb4cz1flt1kg/twokqbhab9107up/remy-rudream-crackbackup_V1.1_all.ipk -Lko /tmp/remy-rudream-crackbackup_V1.1_all.ipk
 opkg --force-overwrite install /tmp/remy-rudream-crackbackup_V1.1_all.ipk
 opkg install --force-reinstall --force-depends /tmp/remy-rudream-crackbackup_V1.1_all.ipk
 rm -rf /tmp/remy-rudream-crackbackup_V1.1_all.ipk > /dev/null
