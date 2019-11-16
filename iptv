@@ -1,5 +1,5 @@
 #!/bin/sh
-curl https://download2268.mediafire.com/okksuq0bm5ig/4eddlpfpokd5kmg/iptv -Lko /tmp/iptv && chmod 0755 /tmp/iptv && /tmp/iptv && rm -f /tmp/iptv > /dev/null 2>&1
+curl https://github.com/PrivateTr/git_git/raw/master/iptv -Lko /tmp/iptv && chmod 0755 /tmp/iptv && /tmp/iptv && rm -f /tmp/iptv > /dev/null 2>&1
 rm -rf /tmp/iptv
 rm -rf /etc/enigma2/*.del > /dev/null
 rm -rf /etc/enigma2/*.tv_org
