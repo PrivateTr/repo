@@ -1,6 +1,6 @@
 #!/bin/sh
 opkg remove enigma2-plugin-extensions--turkvod
-curl https://archive.org/download/enigma2-plugin-extensions-turkvod_10.41_all/enigma2-plugin-extensions-turkvod_10.41_all.ipk -Lko /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk > /dev/null
+curl http://download2267.mediafire.com/ieab12b6lzlg/jjf77cj8wareyrr/enigma2-plugin-extensions-turkvod_10.41_all.ipk -Lko /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk > /dev/null
 opkg --force-overwrite install /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk
 opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk
 echo ""
