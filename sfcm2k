@@ -8,7 +8,7 @@ opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-softcamapp-mips
 opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk
 rm -rf /tmp/enigma2-plugin-softcams-remy-softcamapp-mips-fhd_V1.0_all.ipk > /dev/null
 sleep 1
-curl https://github.com/PrivateTr/remyteam_5.2/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
 /usr/bin/oscam  -b -c /etc/tuxbox/config
 echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
 echo  'https://www.youtube.com/c/ReMyTr'
