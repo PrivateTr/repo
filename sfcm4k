@@ -2,7 +2,7 @@
 opkg remove enigma2-plugin-softcams-remy-softcamapp-arm-4k
 rm -rf /usr/camscript > /dev/null
 sleep 1
-curl https://archive.org/download/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk -Lko /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
+curl http://download2265.mediafire.com/l1dca1fiefxg/p5icsteblglgrbr/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk -Lko /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
 sleep 1
 opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
 opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
