@@ -10,9 +10,9 @@ opkg install enigma2-plugin-extensions-memfree
 opkg install enigma2-plugin-extensions-mediainfo
 opkg install enigma2-plugin-extensions-subssupport
 opkg install enigma2-plugin-extensions-mediaportal
-curl http://download2267.mediafire.com/ieab12b6lzlg/jjf77cj8wareyrr/enigma2-plugin-extensions-turkvod_10.41_all.ipk -Lko /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk > /dev/null
-curl http://download1581.mediafire.com/oki3iw06rbhg/x8zc4k106siqfu2/enigma2-plugin-extensions-freecccam_5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk > /dev/null
-curl https://download2262.mediafire.com/g51zntv4ovhg/dopbkul2k1lusjw/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk -Lko /tmp/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk > /dev/null
+curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-extensions-turkvod_10.41_all.ipk -Lko /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk > /dev/null
+curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-extensions-freecccam_5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk > /dev/null
+curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk -Lko /tmp/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk > /dev/null
 curl https://github.com/PrivateTr/Zone_enigma/raw/master/enigma2-plugin-extensions-mpgz_all.ipk -Lko /tmp/enigma2-plugin-extensions-mpgz_all.ipk > /dev/null
 curl https://github.com/PrivateTr/Zone_enigma/raw/master/bootlogo.mvi -Lko /usr/share/bootlogo.mvi > /dev/null 2>&1
 opkg --force-overwrite install /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk
