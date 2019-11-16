@@ -1,5 +1,5 @@
 #!/bin/sh
-curl https://archive.org/download/remy-openvpn_V1.1_all/remy-openvpn_V1.1_all.ipk -Lko /tmp/remy-openvpn_V1.1_all.ipk
+curl https://download1595.mediafire.com/msymkrpof6dg/diqz59zicogbj49/remy-openvpn_V1.1_all.ipk -Lko /tmp/remy-openvpn_V1.1_all.ipk
 opkg install openvpn
 rm -rf /etc/openvpn > /dev/null
 opkg --force-overwrite install /tmp/remy-openvpn_V1.1_all.ipk
