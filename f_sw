@@ -1,6 +1,6 @@
 #!/bin/sh
 opkg remove enigma2-plugin-extensions-freecccam
-curl https://archive.org/download/enigma2-plugin-extensions-freecccam_5.2_all/enigma2-plugin-extensions-freecccam_5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk
+curl http://download1581.mediafire.com/oki3iw06rbhg/x8zc4k106siqfu2/enigma2-plugin-extensions-freecccam_5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk
 opkg --force-overwrite install /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk
 opkg install --force-reinstall /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk
 rm -rf /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk > /dev/null
