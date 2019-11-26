@@ -1,0 +1,14 @@
+#!/bin/sh
+rm -f /usr/lib/enigma2/python/Plugins/Extensions/Infopanel/plugin.pyo
+rm -f /usr/lib/enigma2/python/Plugins/Extensions/Infopanel/SoftcamPanel.pyo
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/Infopanel/plugin.pyo "https://github.com/PrivateTr/Zone_enigma/raw/master/plugin.pyo"
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/Infopanel/SoftcamPanel.pyo "https://github.com/PrivateTr/Zone_enigma/raw/master/SoftcamPanel.pyo"
+curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk -Lko /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk
+sleep 1
+opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk
+rm -rf /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk > /dev/null
+sleep 1
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
+/usr/bin/oscam -b -c /etc/tuxbox/config
+killall -9 enigma2

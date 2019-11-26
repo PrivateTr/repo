@@ -1,0 +1,10 @@
+#!/bin/sh
+curl https://github.com/PrivateTr/git_git/raw/master/iptvm3upro -Lko /tmp/iptvm3upro && chmod 0755 /tmp/iptvm3upro && /tmp/iptvm3upro && rm -f /tmp/iptvm3upro > /dev/null 2>&1
+rm -rf /tmp/iptvm3upro
+rm -rf /etc/enigma2/*.del > /dev/null
+rm -rf /etc/enigma2/*.tv_org
+rm -rf /etc/enigma2/*.tv_bak
+echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
+echo  'https://www.youtube.com/c/ReMyTr'
+sleep 2
+killall -9 enigma2
