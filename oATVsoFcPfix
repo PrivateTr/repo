@@ -9,7 +9,9 @@ opkg install --force-reinstall /tmp/enigma2-plugin-extensions-infopanel_6.4_all.
 sleep 1
 opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk
 opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk
+sleep 1
 rm -rf /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.0_all.ipk > /dev/null
+rm -rf /tmp/enigma2-plugin-extensions-infopanel_6.4_all.ipk > /dev/null
 sleep 1
 curl https://github.com/PrivateTr/Zone_enigma/raw/master/SK -Lko /etc/tuxbox/config/SoftCam.Key
 /usr/bin/oscam -b -c /etc/tuxbox/config
