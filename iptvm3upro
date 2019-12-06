@@ -1,10 +1,36 @@
 #!/bin/sh
-curl https://github.com/PrivateTr/git_git/raw/master/iptvm3upro -Lko /tmp/iptvm3upro && chmod 0755 /tmp/iptvm3upro && /tmp/iptvm3upro && rm -f /tmp/iptvm3upro > /dev/null 2>&1
-rm -rf /tmp/iptvm3upro
+rm -rf /tmp/*.m3u
+rm -rf /tmp//usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/*.m3u
 rm -rf /etc/enigma2/*.del > /dev/null
 rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
-echo  'YouTube KANALIMA ABONE OLARAK TAKIP EDEBILIRSINIZ'
-echo  'https://www.youtube.com/c/ReMyTr'
-sleep 2
-killall -9 enigma2
+sleep 1
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvList.m3u "https://raw.githubusercontent.com/PrivateTr/Zone_enigma/master/roxy"
+sleep 1
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://raw.githubusercontent.com/PrivateTr/Zone_enigma/master/roxyplus"
+sleep 1
+wget -O /tmp/turkiapro1source.m3u "http://iptv6.premium-stv.com:25461/get.php?username=turkiapro1source&password=8564164562&type=m3u"
+sleep 1
+wget -O /tmp/sourceukpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceukpro1&password=6256905511&type=m3u"
+sleep 1
+wget -O /tmp/sourcemyhdpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcemyhdpro1&password=4690746424&type=m3u"
+sleep 1
+wget -O /tmp/sourceitalypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceitalypro2&password=4936722850&type=m3u"
+sleep 1
+wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
+sleep 1
+wget -O /tmp/Latin.m3u "https://raw.githubusercontent.com/PrivateTr/Zone_enigma/master/Latin-04-11-2019.m3u"
+sleep 1
+wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
+sleep 1
+wget -O /tmp/iptvluxe.m3u "http://iptv-luxe.com:8789/get.php?username=123456789&password=123456789&type=m3u"
+sleep 1
+wget -O /tmp/iptv7premium.m3u "http://iptv7.premium-stv.com:25461/get.php?username=GENERALCHA&password=6535709495&type=m3u"
+sleep 1
+wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=40crPzTMSd&password=4dgszhlfAI&type=m3u"
+sleep 1
+wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
+sleep 1
+wget -O /tmp/diaspromedia.m3u "http://diaspromedia.tv/get.php?username=sa6Oa4Iofq&password=MPqXYzmRZ3&type=m3u"
+rm -rf /tmp/iptvm3upro
+exit 0
