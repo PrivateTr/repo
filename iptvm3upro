@@ -5,9 +5,9 @@ rm -rf /etc/enigma2/*.del > /dev/null
 rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
-wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvList.m3u "https://raw.githubusercontent.com/PrivateTr/Zone_enigma/master/roxy"
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvList.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxy"
 sleep 1
-wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://raw.githubusercontent.com/PrivateTr/Zone_enigma/master/roxyplus"
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxyplus"
 sleep 1
 wget -O /tmp/turkiapro1source.m3u "http://iptv6.premium-stv.com:25461/get.php?username=turkiapro1source&password=8564164562&type=m3u"
 sleep 1
@@ -23,7 +23,7 @@ wget -O /tmp/SOURCEARABIC.m3u "http://slavxc.in:8181/get.php?username=YNSARABIC&
 sleep 1
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 sleep 1
-wget -O /tmp/Latin.m3u "https://raw.githubusercontent.com/PrivateTr/Zone_enigma/master/Latin-04-11-2019.m3u"
+wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Latin-04-11-2019.m3u"
 sleep 1
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 sleep 1
