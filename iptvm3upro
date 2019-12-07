@@ -31,6 +31,6 @@ wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=40crPzTMSd&
 sleep 1
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 sleep 1
-wget -O /tmp/diaspromedia.m3u "http://diaspromedia.tv/get.php?username=sa6Oa4Iofq&password=MPqXYzmRZ3&type=m3u"
+wget -O /tmp/diaspromedia.m3u "http://diaspromedia.tv:80/get.php?username=949FfTjKs3&password=cmo7eUZwl3&type=m3u"
 rm -rf /tmp/iptvm3upro
 exit 0
