@@ -29,14 +29,12 @@ wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IP
 sleep 1
 wget -O /tmp/iptvluxe.m3u "http://iptv-luxe.com:8789/get.php?username=123456789&password=123456789&type=m3u"
 sleep 1
+wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
+sleep 1
 wget -O /tmp/iptv7premium.m3u "http://iptv7.premium-stv.com:25461/get.php?username=GENERALCHA&password=6535709495&type=m3u"
 sleep 1
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
 sleep 1
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
-sleep 1
-wget -O /tmp/diaspromedia.m3u "http://diaspromedia.tv:80/get.php?username=949FfTjKs3&password=cmo7eUZwl3&type=m3u"
-sleep 1
-wget -O /tmp/FILM_DIZI_OK.m3u "https://raw.githubusercontent.com/PrivateTr/git_git/master/iptivihd.m3u"
 rm -rf /tmp/iptvm3upro
 exit 0
