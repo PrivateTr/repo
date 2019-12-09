@@ -33,8 +33,10 @@ wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&
 sleep 1
 wget -O /tmp/iptv7premium.m3u "http://iptv7.premium-stv.com:25461/get.php?username=GENERALCHA&password=6535709495&type=m3u"
 sleep 1
-wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
+wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
 sleep 1
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
+sleep 1
+wget -O /tmp/FILM-DIZI.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI.m3u"
 rm -rf /tmp/iptvm3upro
 exit 0
