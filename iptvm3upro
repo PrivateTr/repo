@@ -38,5 +38,7 @@ sleep 1
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 sleep 1
 wget -O /tmp/ReMyFLIX_FILM-DIZI.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI.m3u"
+sleep 1
+wget -O /tmp/ReMyFLIX_FILM-DIZI_2.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI_2.m3u"
 rm -rf /tmp/iptvm3upro
 exit 0
