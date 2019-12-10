@@ -31,6 +31,8 @@ wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&
 sleep 1
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 sleep 1
+wget -O /tmp/domain-central.m3u "http://domain-central.ddns.me:80/get.php?username=joaosantosneto1&password=5TI4ung&type=m3u"
+sleep 1
 wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=paola&password=123&type=m3u_plus"
 sleep 1
 wget -O /tmp/bartiniptv.m3u "http://bartiniptv.dyndns.tv:8080/get.php?username=qnsgjgQMWN&password=E4ChFyXirE&type=m3u"
