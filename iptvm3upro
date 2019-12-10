@@ -9,17 +9,15 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 sleep 1
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxyplus"
 sleep 1
-wget -O /tmp/turkiapro1source.m3u "http://iptv6.premium-stv.com:25461/get.php?username=turkiapro1source&password=8564164562&type=m3u"
-sleep 1
-wget -O /tmp/sourceukpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceukpro1&password=6256905511&type=m3u"
+wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=919024311539&password=3695578746&type=m3u"
 sleep 1
 wget -O /tmp/sourcemyhdpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcemyhdpro1&password=4690746424&type=m3u"
 sleep 1
-wget -O /tmp/sourceitalypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceitalypro2&password=4936722850&type=m3u"
-sleep 1
 wget -O /tmp/SOURCEARABPRO1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=SOURCEARABPRO1&password=9925515831&type=m3u"
 sleep 1
-wget -O /tmp/SOURCEARABIC.m3u "http://slavxc.in:8181/get.php?username=YNSARABIC&password=z0RhzlsNHGP&type=m3u"
+wget -O /tmp/slavxc-in.m3u "http://slavxc.in:8181/get.php?username=YNSARABIC&password=z0RhzlsNHGP&type=m3u"
+sleep 1
+wget -O /tmp/psrv-io.m3u "http://psrv.io:80/get.php?username=welber&password=welber&type=m3u"
 sleep 1
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 sleep 1
@@ -31,13 +29,13 @@ wget -O /tmp/iptvluxe.m3u "http://iptv-luxe.com:8789/get.php?username=123456789&
 sleep 1
 wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
 sleep 1
-wget -O /tmp/iptv7premium.m3u "http://iptv7.premium-stv.com:25461/get.php?username=GENERALCHA&password=6535709495&type=m3u"
-sleep 1
-wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
-sleep 1
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 sleep 1
-wget -O /tmp/SKY_ITALY.m3u "http://45.141.157.130:80/get.php?username=UvIpwzfgXN&password=hGbpSwqnrI&type=m3u"
+wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=paola&password=123&type=m3u_plus"
+sleep 1
+wget -O /tmp/bartiniptv.m3u "http://bartiniptv.dyndns.tv:8080/get.php?username=qnsgjgQMWN&password=E4ChFyXirE&type=m3u"
+sleep 1
+wget -O /tmp/ReMyFLIX_FILM-DIZI.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI.m3u"
 sleep 1
 wget -O /tmp/ReMyFLIX_FILM-DIZI_2.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI_2.m3u"
 rm -rf /tmp/iptvm3upro
