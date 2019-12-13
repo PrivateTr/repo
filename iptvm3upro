@@ -29,7 +29,7 @@ wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=
 
 wget -O /tmp/domain-central.m3u "http://domain-central.ddns.me:80/get.php?username=joaosantosneto1&password=5TI4ung&type=m3u"
 
-wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=paola&password=123&type=m3u_plus"
+wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
 
 wget -O /tmp/ReMyFLIX_FILM-DIZI.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI.m3u"
 sleep 1
