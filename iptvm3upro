@@ -13,10 +13,6 @@ wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=9190243
 
 wget -O /tmp/sourcemyhdpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcemyhdpro1&password=4690746424&type=m3u"
 
-wget -O /tmp/SOURCEARABPRO1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=SOURCEARABPRO1&password=9925515831&type=m3u"
-
-wget -O /tmp/slavxc-in.m3u "http://slavxc.in:8181/get.php?username=YNSARABIC&password=z0RhzlsNHGP&type=m3u"
-
 wget -O /tmp/psrv-io.m3u "http://psrv.io:80/get.php?username=welber&password=welber&type=m3u"
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
@@ -27,7 +23,7 @@ wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IP
 
 wget -O /tmp/iptvluxe.m3u "http://iptv-luxe.com:8789/get.php?username=123456789&password=123456789&type=m3u"
 
-wget -O /tmp/iptvcline.m3u "http://iptv.cline.in:80/get.php?username=aGBEySmATv&password=S9x45HjP5E&type=m3u"
+wget -O /tmp/xtream-ws.m3u "http://xtream.ws:8000/get.php?username=6874874038621&password=1815010847058&type=m3u"
 
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
@@ -35,11 +31,7 @@ wget -O /tmp/domain-central.m3u "http://domain-central.ddns.me:80/get.php?userna
 
 wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=paola&password=123&type=m3u_plus"
 
-wget -O /tmp/bartiniptv.m3u "http://bartiniptv.dyndns.tv:8080/get.php?username=qnsgjgQMWN&password=E4ChFyXirE&type=m3u"
-
 wget -O /tmp/ReMyFLIX_FILM-DIZI.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI.m3u"
-
-wget -O /tmp/ReMyFLIX_FILM-DIZI_2.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI_2.m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
