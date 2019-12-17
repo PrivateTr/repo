@@ -31,7 +31,7 @@ wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?u
 
 wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
 
-wget -O /tmp/ReMyFLIX_FILM-DIZI.m3u "https://github.com/PrivateTr/git_git/raw/master/FILM-DIZI.m3u"
+wget -O /tmp/gmcllc-de.m3u "http://gmcllc.de:25461/get.php?username=mngall&password=Meda16Okt&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
