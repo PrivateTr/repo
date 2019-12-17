@@ -21,7 +21,7 @@ wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Lati
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
-wget -O /tmp/iptvluxe.m3u "http://iptv-luxe.com:8789/get.php?username=123456789&password=123456789&type=m3u"
+wget -O /tmp/iptv-deluxeplay.m3u "http://iptv.deluxeplay.live:80/get.php?username=W3U4y3p5u&password=Y0tQv889do&type=m3u"
 
 wget -O /tmp/sourcefrhevcpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcefrhevcpro1&password=0493432475&type=m3u"
 
@@ -31,7 +31,9 @@ wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?u
 
 wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
 
-wget -O /tmp/gmcllc-de.m3u "http://gmcllc.de:25461/get.php?username=mngall&password=Meda16Okt&type=m3u"
+wget -O /tmp/tv2iptv.m3u "http://tv2iptv.com:8000/get.php?username=Dylan&password=Dylan123&type=m3u"
+
+wget -O /tmp/abolamaster.m3u "http://abolamaster.ddns.net:25461/get.php?username=3w00sF13Uv&password=bEOCBQZODK&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
