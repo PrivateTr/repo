@@ -13,8 +13,6 @@ wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=9190243
 
 wget -O /tmp/tv2iptv.m3u "http://tv2iptv.com:8000/get.php?username=Dylan&password=Dylan123&type=m3u"
 
-wget -O /tmp/sourceturkiapro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
-
 wget -O /tmp/sourcemyhdpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcemyhdpro1&password=4690746424&type=m3u"
 
 wget -O /tmp/sourcenederlandpro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcenederlandpro2&password=6544963080&type=m3u"
