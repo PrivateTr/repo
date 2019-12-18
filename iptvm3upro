@@ -9,13 +9,21 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/roxyplus"
 
-wget -O /tmp/corine.m3u "http://185.233.185.248:25443/get.php?username=corine&password=123456&type=m3u"
-
 wget -O /tmp/tvservice-pro.m3u "http://tvservice.pro:80/get.php?username=919024311539&password=3695578746&type=m3u"
+
+wget -O /tmp/tv2iptv.m3u "http://tv2iptv.com:8000/get.php?username=Dylan&password=Dylan123&type=m3u"
+
+wget -O /tmp/sourceturkiapro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
 
 wget -O /tmp/sourcemyhdpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcemyhdpro1&password=4690746424&type=m3u"
 
 wget -O /tmp/sourcenederlandpro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcenederlandpro2&password=6544963080&type=m3u"
+
+wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcegermanypro2&password=0626674936&type=m3u"
+
+wget -O /tmp/sourcefrhevcpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcefrhevcpro1&password=0493432475&type=m3u"
+
+wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
@@ -25,15 +33,13 @@ wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IP
 
 wget -O /tmp/iptv-deluxeplay.m3u "http://iptv.deluxeplay.live:80/get.php?username=W3U4y3p5u&password=Y0tQv889do&type=m3u"
 
-wget -O /tmp/sourcefrhevcpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcefrhevcpro1&password=0493432475&type=m3u"
-
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
-
-wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcegermanypro2&password=0626674936&type=m3u"
 
 wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
 
-wget -O /tmp/tv2iptv.m3u "http://tv2iptv.com:8000/get.php?username=Dylan&password=Dylan123&type=m3u"
+wget -O /tmp/corine.m3u "http://185.233.185.248:25443/get.php?username=corine&password=123456&type=m3u"
+
+wget -O /tmp/beastiptv.m3u "http://beastiptv.tv:25461/get.php?username=wally&password=wally123&type=m3u"
 
 wget -O /tmp/abolamaster.m3u "http://abolamaster.ddns.net:25461/get.php?username=3w00sF13Uv&password=bEOCBQZODK&type=m3u"
 sleep 1
