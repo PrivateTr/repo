@@ -34,6 +34,8 @@ wget -O /tmp/fullhdp.m3u "http://fullhdp.servep2p.com:3500/get.php?username=gokh
 wget -O /tmp/mediaptv1.m3u "http://mediaptv1.zuneserver.com:8000/get.php?username=localchannels&password=xhga53ls83j&type=m3u"
 
 wget -O /tmp/premium-stv.m3u "http://iptv7.premium-stv.com:25461/get.php?username=sportgenerCH&password=NNBkknvcLKG&type=m3u"
+
+wget -O /tmp/Film_Brazil.m3u "http://www.pastebr.xyz/raw/JANWerwa7Q"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
