@@ -15,7 +15,7 @@ wget -O /tmp/sourcenederlandpro2.m3u "http://iptv6.premium-stv.com:25461/get.php
 
 wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcegermanypro2&password=0626674936&type=m3u"
 
-wget -O /tmp/sourcefrhevcpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcefrhevcpro1&password=0493432475&type=m3u"
+wget -O /tmp/iptvpro-vision.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
 wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
@@ -33,7 +33,7 @@ wget -O /tmp/fullhdp.m3u "http://fullhdp.servep2p.com:3500/get.php?username=gokh
 
 wget -O /tmp/mediaptv1.m3u "http://mediaptv1.zuneserver.com:8000/get.php?username=localchannels&password=xhga53ls83j&type=m3u"
 
-wget -O /tmp/premium-stv.m3u "http://iptv7.premium-stv.com:25461/get.php?username=sportgenerCH&password=NNBkknvcLKG&type=m3u"
+wget -O /tmp/canais.m3u "http://canais.servidor.tv:8080/get.php?username=fabio123&password=fabio123&type=m3u"
 
 wget -O /tmp/Film_Brazil.m3u "http://www.pastebr.xyz/raw/JANWerwa7Q"
 sleep 1
