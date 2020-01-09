@@ -33,6 +33,8 @@ wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&pas
 
 wget -O /tmp/raos90_vodsistem.m3u "http://raos90.com:8080/get.php?username=vodsistem&password=13.12.2019&type=m3u"
 
+wget -O /tmp/USA_evolucion03.m3u "http://51.79.81.97:25461/get.php?username=ITV&password=4RTYUI&type=m3u"
+
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
 wget -O /tmp/Film_Brazil.m3u "http://www.pastebr.xyz/raw/JANWerwa7Q"
