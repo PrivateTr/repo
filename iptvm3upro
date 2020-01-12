@@ -27,6 +27,8 @@ wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Lati
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
+wget -O /tmp/iptvpro_premium-tv.m3u "http://iptvpro.premium-tv.media:8789/get.php?username=francesdclark&password=MJ5jwjknJA&type=m3u"
+
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
 wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
@@ -36,6 +38,8 @@ wget -O /tmp/raos90_vodsistem.m3u "http://raos90.com:8080/get.php?username=vodsi
 wget -O /tmp/USA_evolucion03.m3u "http://51.79.81.97:25461/get.php?username=ITV&password=4RTYUI&type=m3u"
 
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
+
+wget -O /tmp/primeplus.m3u "http://primeplus.tv:8080/get.php?username=YMq12IOMMi&password=XqJX8Mfx0i&type=m3u"
 
 wget -O /tmp/Film_Brazil.m3u "http://www.pastebr.xyz/raw/JANWerwa7Q"
 sleep 1
