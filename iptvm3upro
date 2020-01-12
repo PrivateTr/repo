@@ -17,6 +17,8 @@ wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?u
 
 wget -O /tmp/sourceturkiapro.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
 
+wget -O /tmp/SPORTpro2a.m3u "http://iptv3.premium-stv.com:25461/get.php?username=SPORTpro2a&password=nscbljbznha44t&type=m3u"
+
 wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
 wget -O /tmp/mediaptv1.m3u "http://mediaptv1.zuneserver.com:8000/get.php?username=localchannels&password=xhga53ls83j&type=m3u"
