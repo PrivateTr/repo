@@ -41,7 +41,7 @@ wget -O /tmp/USA_evolucion03.m3u "http://51.79.81.97:25461/get.php?username=ITV&
 
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
-wget -O /tmp/primeplus.m3u "http://54.36.166.68:80/get.php?username=tNRdI98LO6&password=PdrQlZZY14&type=m3u"
+wget -O /tmp/TR_primeplus.m3u "http://54.36.166.68:80/get.php?username=tNRdI98LO6&password=PdrQlZZY14&type=m3u"
 
 wget -O /tmp/primeplus.m3u "http://primeplus.tv:8080/get.php?username=YMq12IOMMi&password=XqJX8Mfx0i&type=m3u"
 
