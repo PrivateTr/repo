@@ -9,8 +9,6 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
 
-wget -O /tmp/sourcemyhdpro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcemyhdpro1&password=4690746424&type=m3u"
-
 wget -O /tmp/sourcenederlandpro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcenederlandpro2&password=6544963080&type=m3u"
 
 wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcegermanypro2&password=0626674936&type=m3u"
@@ -25,7 +23,7 @@ wget -O /tmp/mediaptv1.m3u "http://mediaptv1.zuneserver.com:8000/get.php?usernam
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
-wget -O /tmp/Latin.m3u "https://github.com/PrivateTr/Zone_enigma/raw/master/Latin-04-11-2019.m3u"
+wget -O /tmp/Capro1Canada.m3u "http://iptv6.premium-stv.com:25461/get.php?username=capro1canda&password=hhfJYBkkGGHjju&type=m3u"
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
@@ -43,9 +41,13 @@ wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165
 
 wget -O /tmp/TR_primeplus.m3u "http://54.36.166.68:80/get.php?username=tNRdI98LO6&password=PdrQlZZY14&type=m3u"
 
+wget -O /tmp/iptvsubscription.m3u "http://z.iptvsubscription.org:80/get.php?username=2ucpNdKgqy&password=La1LlABcKd&type=m3u"
+
 wget -O /tmp/primeplus.m3u "http://primeplus.tv:8080/get.php?username=YMq12IOMMi&password=XqJX8Mfx0i&type=m3u"
 
-wget -O /tmp/Film_Brazil.m3u "http://www.pastebr.xyz/raw/JANWerwa7Q"
+wget -O /tmp/mytvonline.m3u "http://mytvonline.nl:80/get.php?username=2YQyltguql&password=XwEAnAWfE0&type=m3u"
+
+wget -O /tmp/ReMy_IPTV_MobileList.m3u "https://github.com/PrivateTr/git_git/raw/master/ReMy_IPTV_MobileList.m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
