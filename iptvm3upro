@@ -11,17 +11,15 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.
 
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
-wget -O /tmp/SPORTpro2a.m3u "http://iptv3.premium-stv.com:25461/get.php?username=SPORTpro2a&password=nscbljbznha44t&type=m3u"
-
 wget -O /tmp/sourceturkiapro.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
 
-wget -O /tmp/sourcenederlandpro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcenederlandpro2&password=6544963080&type=m3u"
+wget -O /tmp/canais-servidor.m3u "http://canais.servidor.tv:8080/get.php?username=erica123&password=erica123&type=m3u"
 
-wget -O /tmp/sourcegermanypro2.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcegermanypro2&password=0626674936&type=m3u"
+wget -O /tmp/serverpower.m3u "http://lista.serverpower.me:80/get.php?username=757575&password=757575&type=m3u"
 
 wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
-wget -O /tmp/mediaptv1.m3u "http://mediaptv1.zuneserver.com:8000/get.php?username=localchannels&password=xhga53ls83j&type=m3u"
+wget -O /tmp/wuuws.m3u "http://wuuws.com:8080/get.php?username=26856154&password=Maxtv03435731&type=m3u"
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
@@ -31,11 +29,11 @@ wget -O /tmp/iptvpro_premium-tv.m3u "http://iptvpro.premium-tv.media:8789/get.ph
 
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
-wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
+wget -O /tmp/DeepList.m3u "http://list.deeplist.nl:80/get.php?username=eliete&password=123456&type=m3u_plus"
 
 wget -O /tmp/Capro1Canada.m3u "http://iptv6.premium-stv.com:25461/get.php?username=capro1canda&password=hhfJYBkkGGHjju&type=m3u"
 
-wget -O /tmp/AR_OSN.m3u "http://45.77.65.162:80/get.php?username=SRTgsrtGsRth&password=7ue6hs45aerha34&type=m3u"
+wget -O /tmp/network-star.m3u "http://network-star.com:14000/get.php?username=fusion&password=fusion&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
