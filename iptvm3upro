@@ -34,6 +34,14 @@ wget -O /tmp/DeepList.m3u "http://list.deeplist.nl:80/get.php?username=eliete&pa
 wget -O /tmp/Capro1Canada.m3u "http://iptv6.premium-stv.com:25461/get.php?username=capro1canda&password=hhfJYBkkGGHjju&type=m3u"
 
 wget -O /tmp/network-star.m3u "http://network-star.com:14000/get.php?username=fusion&password=fusion&type=m3u"
+
+wget -O /tmp/liv3e-click.m3u "http://liv3e.click:80/get.php?username=7481458234&password=7481458234&type=m3u"
+
+wget -O /tmp/iPTV365.m3u "http://best.ultrahd5.com:80/get.php?username=Kahraman1&password=05012019&type=m3u"
+
+wget -O /tmp/predator-ott.m3u "http://predator-ott.com:8000/get.php?username=QWT10285&password=Q1RtrLmFur&type=m3u"
+
+wget -O /tmp/forsat-men.m3u "http://forsat.men:8888/get.php?username=sahar&password=tysWdQOeKv&type=m3u_plus"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
