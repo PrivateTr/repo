@@ -9,6 +9,8 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
 
+wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
+
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
 wget -O /tmp/sourceturkiapro.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
@@ -32,6 +34,10 @@ wget -O /tmp/DeepList.m3u "http://list.deeplist.nl:80/get.php?username=eliete&pa
 wget -O /tmp/Capro1Canada.m3u "http://iptv6.premium-stv.com:25461/get.php?username=capro1canda&password=hhfJYBkkGGHjju&type=m3u"
 
 wget -O /tmp/network-star.m3u "http://network-star.com:14000/get.php?username=fusion&password=fusion&type=m3u"
+
+wget -O /tmp/zaytonatube.m3u "http://v1.zaytonatube.com:8008/get.php?username=TkHzlpCoCi&password=OuT5lxv8t6&type=m3u"
+
+curl -Lko /tmp/best-ultrahd5.m3u "http://52.58.214.212:80/get.php?username=Kahraman1&password=05012019&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
