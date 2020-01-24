@@ -13,6 +13,8 @@ wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=te
 
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
+wget -O /tmp/mxc_tvxweb.m3u "http://mxc.tvxweb.net:25461/get.php?username=sara&password=sara&type=m3u"
+
 wget -O /tmp/SPORT@pro2.m3u "http://iptv3.premium-stv.com:25461/get.php?username=SPORT@pro2@irr&password=nscd@z@bljbzd44t@&type=m3u"
 
 wget -O /tmp/usapro2source.m3u "http://iptv6.premium-stv.com:25461/get.php?username=usapro2source&password=79996526641&type=m3u"
