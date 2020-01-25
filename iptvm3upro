@@ -15,6 +15,8 @@ curl -Lko /tmp/Espana_Prime.m3u "http://srregio.net/e20/tv.m3u"
 
 wget -O /tmp/zoomiptv.club.m3u "http://zoomiptv.club:8000/get.php?username=7J4RJXUJpx&password=ZprUsQes5b&type=m3u"
 
+wget -O /tmp/BEIN-PRO.m3u "http://185.23.213.162:8789/get.php?username=ania&password=ania&type=m3u"
+
 wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
 
 wget -O /tmp/Fox-FLIX.m3u "http://158.69.127.36:25461/get.php?username=BbCHfcsrtx&password=WgdwT6jWfT&type=m3u"
@@ -42,8 +44,6 @@ wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=
 wget -O /tmp/DeepList.m3u "http://list.deeplist.nl:80/get.php?username=eliete&password=123456&type=m3u_plus"
 
 wget -O /tmp/restreamkooramax2020apk.m3u "http://173.249.14.200:25461/get.php?username=restreamkooramax2020apk&password=43746348646628437463639&type=m3u"
-
-wget -O /tmp/BEIN-PRO.m3u "http://185.23.213.162:8789/get.php?username=ania&password=ania&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
