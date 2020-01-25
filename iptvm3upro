@@ -9,11 +9,19 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
 
+wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
+
+wget -O /tmp/Mexican_Prime.m3u "http://srregio.net/e20/mx.m3u"
+
+curl -Lko /tmp/Espana_Prime.m3u "http://srregio.net/e20/tv.m3u"
+
 wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
 
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
-wget -O /tmp/mxc_tvxweb.m3u "http://mxc.tvxweb.net:25461/get.php?username=sara&password=sara&type=m3u"
+wget -O /tmp/mxc_tvxweb.m3u "http://xtreamv3-dreamsatsport.ddns.net:25461/get.php?username=BEIN0SD&password=t8dGBJITHt&type=m3u"
+
+wget -O /tmp/mxc_tvxweb.m3u "http://xtreamv3-dreamsatsport.ddns.net:25461/get.php?username=BEINMYHD&password=4YmFi5App0&type=m3u"
 
 wget -O /tmp/SPORT@pro2.m3u "http://iptv3.premium-stv.com:25461/get.php?username=SPORT@pro2@irr&password=nscd@z@bljbzd44t@&type=m3u"
 
@@ -38,10 +46,6 @@ wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=
 wget -O /tmp/DeepList.m3u "http://list.deeplist.nl:80/get.php?username=eliete&password=123456&type=m3u_plus"
 
 wget -O /tmp/Capro1Canada.m3u "http://iptv6.premium-stv.com:25461/get.php?username=capro1canda&password=hhfJYBkkGGHjju&type=m3u"
-
-wget -O /tmp/network-star.m3u "http://network-star.com:14000/get.php?username=fusion&password=fusion&type=m3u"
-
-curl -Lko /tmp/best-ultrahd5.m3u "http://52.58.214.212:80/get.php?username=Kahraman1&password=05012019&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
