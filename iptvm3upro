@@ -19,6 +19,8 @@ wget -O /tmp/BEIN-PRO.m3u "http://185.23.213.162:8789/get.php?username=ania&pass
 
 wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
 
+wget -O /tmp/NETFLIX.IZLE2FR.m3u "https://en.tousecurity.com/wp-content/plugins/download-attachments/includes/download.php?id=41863"
+
 wget -O /tmp/NETFLIX.IZLE.m3u "https://en.tousecurity.com/wp-content/plugins/download-attachments/includes/download.php?id=41865"
 
 wget -O /tmp/Fox-FLIX.m3u "http://158.69.127.36:25461/get.php?username=BbCHfcsrtx&password=WgdwT6jWfT&type=m3u"
