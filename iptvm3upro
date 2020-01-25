@@ -11,8 +11,6 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.
 
 wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
 
-wget -O /tmp/Mexican_Prime.m3u "http://srregio.net/e20/mx.m3u"
-
 curl -Lko /tmp/Espana_Prime.m3u "http://srregio.net/e20/tv.m3u"
 
 wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
