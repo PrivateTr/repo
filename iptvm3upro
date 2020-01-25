@@ -13,6 +13,8 @@ wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
 
 curl -Lko /tmp/Espana_Prime.m3u "http://srregio.net/e20/tv.m3u"
 
+wget -O /tmp/zoomiptv.club.m3u "http://zoomiptv.club:8000/get.php?username=7J4RJXUJpx&password=ZprUsQes5b&type=m3u"
+
 wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
 
 wget -O /tmp/Fox-FLIX.m3u "http://158.69.127.36:25461/get.php?username=BbCHfcsrtx&password=WgdwT6jWfT&type=m3u"
