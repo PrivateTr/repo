@@ -25,8 +25,6 @@ wget -O /tmp/SPORT@pro2.m3u "http://iptv3.premium-stv.com:25461/get.php?username
 
 wget -O /tmp/serverpower.m3u "http://lista.serverpower.me:80/get.php?username=757575&password=757575&type=m3u"
 
-wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
-
 wget -O /tmp/wuuws.m3u "http://wuuws.com:8080/get.php?username=26856154&password=Maxtv03435731&type=m3u"
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
