@@ -23,8 +23,6 @@ wget -O /tmp/BEINMYHD.m3u "http://xtreamv3-dreamsatsport.ddns.net:25461/get.php?
 
 wget -O /tmp/SPORT@pro2.m3u "http://iptv3.premium-stv.com:25461/get.php?username=SPORT@pro2@irr&password=nscd@z@bljbzd44t@&type=m3u"
 
-wget -O /tmp/usapro2source.m3u "http://iptv6.premium-stv.com:25461/get.php?username=usapro2source&password=79996526641&type=m3u"
-
 wget -O /tmp/sourceturkiapro.m3u "http://iptv6.premium-stv.com:25461/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
 
 wget -O /tmp/serverpower.m3u "http://lista.serverpower.me:80/get.php?username=757575&password=757575&type=m3u"
