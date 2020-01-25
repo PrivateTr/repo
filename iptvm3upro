@@ -41,8 +41,6 @@ wget -O /tmp/iptvpro_premium-tv.m3u "http://iptvpro.premium-tv.media:8789/get.ph
 
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
-wget -O /tmp/DeepList.m3u "http://list.deeplist.nl:80/get.php?username=eliete&password=123456&type=m3u_plus"
-
 wget -O /tmp/restreamkooramax2020apk.m3u "http://173.249.14.200:25461/get.php?username=restreamkooramax2020apk&password=43746348646628437463639&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
