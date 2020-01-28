@@ -11,45 +11,29 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.
 
 wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
 
-curl -Lko /tmp/Espana_Prime.m3u "http://srregio.net/e20/tv.m3u"
-
-wget -O /tmp/zoomiptv.club.m3u "http://zoomiptv.club:8000/get.php?username=7J4RJXUJpx&password=ZprUsQes5b&type=m3u"
-
-wget -O /tmp/BEIN-PRO.m3u "http://185.23.213.162:8789/get.php?username=ania&password=ania&type=m3u"
-
 wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
 
-wget -O /tmp/NETFLIX.IZLE2FR.m3u "https://en.tousecurity.com/wp-content/plugins/download-attachments/includes/download.php?id=41863"
+wget -O /tmp/NETFLIX2FR.IZLE.m3u "https://en.tousecurity.com/wp-content/plugins/download-attachments/includes/download.php?id=41863"
 
 wget -O /tmp/NETFLIX.IZLE.m3u "https://en.tousecurity.com/wp-content/plugins/download-attachments/includes/download.php?id=41865"
 
-wget -O /tmp/Fox-FLIX.m3u "http://158.69.127.36:25461/get.php?username=BbCHfcsrtx&password=WgdwT6jWfT&type=m3u"
+wget -O /tmp/NETFLIX.INDIAN.m3u "http://95.154.194.14:8000/get.php?username=3E3tfSepRV&password=CHoDruHskE&type=m3u"
 
 wget -O /tmp/xtream_ws.m3u "http://xtream.ws:8000/get.php?username=8240562253165&password=4225774182472&type=m3u"
 
-wget -O /tmp/BEIN0SD.m3u "http://xtreamv3-dreamsatsport.ddns.net:25461/get.php?username=BEIN0SD&password=t8dGBJITHt&type=m3u"
-
-wget -O /tmp/BEINMYHD.m3u "http://xtreamv3-dreamsatsport.ddns.net:25461/get.php?username=BEINMYHD&password=4YmFi5App0&type=m3u"
-
-wget -O /tmp/SPORT@pro2.m3u "http://iptv3.premium-stv.com:25461/get.php?username=SPORT@pro2@irr&password=nscd@z@bljbzd44t@&type=m3u"
+wget -O /tmp/wuuws.m3u "http://wuuws.com:8080/get.php?username=BAHR17&password=0303SEZ&type=m3u"
 
 wget -O /tmp/serverpower.m3u "http://lista.serverpower.me:80/get.php?username=757575&password=757575&type=m3u"
 
-wget -O /tmp/wuuws.m3u "http://wuuws.com:8080/get.php?username=BAHR17&password=0303SEZ&type=m3u"
+wget -O /tmp/quatv2.m3u "http://quatv2.com:80/get.php?username=nana12&password=nana12&type=m3u"
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
-wget -O /tmp/iptvpro_premium-tv.m3u "http://iptvpro.premium-tv.media:8789/get.php?username=francesdclark&password=MJ5jwjknJA&type=m3u"
-
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
-wget -O /tmp/restreamkooramax2020apk.m3u "http://173.249.14.200:25461/get.php?username=restreamkooramax2020apk&password=43746348646628437463639&type=m3u"
-
-wget -O /tmp/BEINSPORT_ARRAAPP.m3u "http://45.137.149.194:25461/get.php?username=dada&password=dada&type=m3u"
-
-wget -O /tmp/quatv2.m3u "http://quatv2.com:80/get.php?username=nana12&password=nana12&type=m3u"
+wget -O /tmp/BEINSPORT_ARAP.m3u "http://45.137.149.194:25461/get.php?username=dada&password=dada&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
