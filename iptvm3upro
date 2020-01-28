@@ -34,6 +34,10 @@ wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IP
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
 wget -O /tmp/BEINSPORT_ARAP.m3u "http://45.137.149.194:25461/get.php?username=dada&password=dada&type=m3u"
+
+wget -O /tmp/HOLLAND.m3u "http://95.154.194.84:8000/get.php?username=T3SL2hiwmt&password=uZhb8OyMp3&type=m3u"
+
+wget -O /tmp/wweraw.m3u "http://wweraw.ddns.net:8080/get.php?username=Meeeeeeeerrrrrrggggggggg&password=Meeeeeeeerrrrrrggggggggg&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
