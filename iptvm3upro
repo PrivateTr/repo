@@ -23,10 +23,6 @@ wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IP
 
 wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
 
-wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
-
-wget -O /tmp/wweraw.m3u "http://wweraw.ddns.net:8080/get.php?username=Meeeeeeeerrrrrrggggggggg&password=Meeeeeeeerrrrrrggggggggg&type=m3u"
-
 wget -O /tmp/BelgiquePro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
 wget -O /tmp/PORTUGALPRO2.m3u "http://163.172.43.26:8000/get.php?username=PORTUGALPRO2&password=gv8XyLDN8b&type=m3u"
