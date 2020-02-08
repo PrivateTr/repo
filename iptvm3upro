@@ -11,17 +11,17 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvL
 
 wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
 
-wget -O /tmp/ARABIAN-MOVIES.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
-
 wget -O /tmp/NETFLIX2FR.IZLE.m3u "https://en.tousecurity.com/wp-content/plugins/download-attachments/includes/download.php?id=41863"
 
 wget -O /tmp/wuuws.m3u "http://wuuws.com:8080/get.php?username=26856154&password=Maxtv03435731&type=m3u"
 
-wget -O /tmp/quatv2.m3u "http://quatv2.com:80/get.php?username=nana12&password=nana12&type=m3u"
+wget -O /tmp/FILMLERI_IZLE_DONMAZ.m3u "http://showflix.org:5890/get.php?username=1234567&password=12345&type=m3u"
 
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
+
+wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
 
 wget -O /tmp/ictv19.m3u "http://ictv19.xyz:8000/get.php?username=orlan&password=1234&type=m3u"
 
@@ -34,6 +34,8 @@ wget -O /tmp/PORTUGALPRO2.m3u "http://163.172.43.26:8000/get.php?username=PORTUG
 wget -O /tmp/Pro1Turc.m3u "http://iptv8.premium-stv.com:2052/get.php?username=pro1turc&password=bhXdd32sd1g&type=m3u"
 
 wget -O /tmp/TurkiaPro2.m3u "http://51.159.21.231:2052/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
+
+wget -O /tmp/ARAPIN_YERI.m3u "http://45.137.149.194:25461/get.php?username=dado&password=124zw&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
