@@ -29,7 +29,7 @@ wget -O /tmp/Pro1Turc.m3u "http://iptv8.premium-stv.com:2052/get.php?username=pr
 
 wget -O /tmp/TurkiaPro2.m3u "http://51.159.21.231:2052/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
 
-wget -O /tmp/DüHÂT-I ARAB.m3u "http://51.159.21.231:2052/get.php?username=SOURCEARABPRO22&password=3113638606&type=m3u"
+wget -O /tmp/SPORT_PRO2.m3u "http://iptv3.premium-stv.com:25461/get.php?username=8571361380SP@pro2@irr@&password=4538907326ns@bljbzd@44t@&type=m3u"
 
 wget -O /tmp/ARAPIN_YERI.m3u "http://45.137.149.194:25461/get.php?username=dado&password=124zw&type=m3u"
 
