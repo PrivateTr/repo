@@ -15,8 +15,6 @@ wget -O /tmp/NETFLIX2FR.IZLE.m3u "https://en.tousecurity.com/wp-content/plugins/
 
 wget -O /tmp/wuuws.m3u "http://wuuws.com:8080/get.php?username=26856154&password=Maxtv03435731&type=m3u"
 
-wget -O /tmp/FILMLERI_IZLE_DONMAZ.m3u "http://showflix.org:5890/get.php?username=1234567&password=12345&type=m3u"
-
 wget -O /tmp/localhdTV.m3u "http://localhd.tv:8081/get.php?username=gueguin.cyrille&password=sosXqioS4I&type=m3u"
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
@@ -31,7 +29,11 @@ wget -O /tmp/Pro1Turc.m3u "http://iptv8.premium-stv.com:2052/get.php?username=pr
 
 wget -O /tmp/TurkiaPro2.m3u "http://51.159.21.231:2052/get.php?username=sourceturkiapro2&password=8684782188&type=m3u"
 
+wget -O /tmp/DüHÂT-I ARAB.m3u "http://51.159.21.231:2052/get.php?username=SOURCEARABPRO22&password=3113638606&type=m3u"
+
 wget -O /tmp/ARAPIN_YERI.m3u "http://45.137.149.194:25461/get.php?username=dado&password=124zw&type=m3u"
+
+wget -O /tmp/DOWN_AMRiKA.m3u "http://51.159.21.231:2052/get.php?username=usapro2@source&password=799965@26641&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
