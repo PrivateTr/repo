@@ -46,6 +46,8 @@ wget -O /tmp/BELGuser.m3u "http://source.vision-new.org:5000/get.php?username=BE
 wget -O /tmp/arabic.m3u "http://190.2.143.8:25461/get.php?username=arabic&password=3AFfe8Lpvf&type=m3u"
 
 wget -O /tmp/aliwix-t.m3u "http://aliwix-t.online/get.php?username=supersport&password=aliwix&type=m3u"
+
+wget -O /tmp/MBC.m3u "http://xtream4.xyz:25461/get.php?username=MBC&password=quAf9q83K2&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
