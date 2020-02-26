@@ -23,15 +23,15 @@ wget -O /tmp/MiddleKingdom-HuangHe.m3u "https://github.com/exodiver/IPTV/raw/mas
 
 wget -O /tmp/MiddleKingdom-Yangtze.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Middle%20Kingdom/Yangtze.m3u8"
 
-wget -O /tmp/icone-iron_Sport.m3u "https://tinyurl.com/soyn3wv"
+wget -O /tmp/icone-iron_arabic2.m3u "https://tinyurl.com/t5qx3rk"
+
+wget -O /tmp/icone-iron_arabic.m3u "https://tinyurl.com/t5qx3rk"
 
 wget -O /tmp/icone-iron_Sport2.m3u "https://tinyurl.com/vzt42o2"
 
 wget -O /tmp/icone-iron_Sport1.m3u "https://tinyurl.com/vz8pwgc"
 
-wget -O /tmp/icone-iron_arabic2.m3u "https://tinyurl.com/t5qx3rk"
-
-wget -O /tmp/icone-iron_arabic.m3u "https://tinyurl.com/t5qx3rk"
+wget -O /tmp/icone-iron_Sport.m3u "https://tinyurl.com/soyn3wv"
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
