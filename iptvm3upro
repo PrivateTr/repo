@@ -5,9 +5,9 @@ rm -rf /etc/enigma2/*.del > /dev/null
 rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
-wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
+wget -O /tmp/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
 
-wget -O /usr/lib/enigma2/python/Plugins/Extensions/m3u_Pro/m3u_ProM3U/ReMy_IpTvList.m3u "https://github.com/PrivateTr/git_git/raw/master/roxy"
+wget -O /tmp/ReMy_IpTvList.m3u "https://github.com/PrivateTr/git_git/raw/master/roxy"
 
 wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
 
@@ -37,19 +37,17 @@ wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IP
 
 wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
 
-wget -O /tmp/BelgiquePro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
-
 wget -O /tmp/rmcsport5.m3u "http://iptv7.premium-stv.com:25461/get.php?username=rmcsport5&password=2350888447&type=m3u"
 
 wget -O /tmp/rmcsport3.m3u "http://iptv7.premium-stv.com:25461/get.php?username=rmcsport3&password=1557539943&type=m3u"
 
 wget -O /tmp/Shooftvplus.m3u "http://78.46.73.89:8000/get.php?username=Shooftvplus&password=Cukhgylc566&type=m3u"
 
-wget -O /tmp/BELGuser.m3u "http://source.vision-new.org:5000/get.php?username=BELGuser&password=pro2&type=m3u"
+wget -O /tmp/Belgiqueuser.m3u "http://source.vision-new.org:5000/get.php?username=BELGuser&password=pro2&type=m3u"
+
+wget -O /tmp/BelgiquePro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
 wget -O /tmp/arabic.m3u "http://190.2.143.8:25461/get.php?username=arabic&password=3AFfe8Lpvf&type=m3u"
-
-wget -O /tmp/MBC.m3u "http://xtream4.xyz:25461/get.php?username=MBC&password=quAf9q83K2&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
