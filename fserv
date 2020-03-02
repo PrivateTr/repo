@@ -625,9 +625,9 @@ rm -f $FreeServer2
 rm -f $FreeServertmpa* $FreeServertmpb*
 sed '/^\s*$/d' $EmuServer
 echo "$LINE"
-echo "*                        Finished                          *"
+echo "*                        ALDIK GELDIK                          *"
 echo "*                   mino60 - RAED - Fairbird               *"
-echo "*   You can find Servers lines in (/etc/CCcam.cfg)         *"
+echo "*   SERVER_LAZIM_MI_BELES_TEPE_1_2 YE TESSEKKURLRR         *"
 echo "$LINE"
 #OScam Path
 cd /etc/tuxbox/config
