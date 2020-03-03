@@ -11,17 +11,25 @@ wget -O /tmp/ReMy_IpTvList.m3u "https://github.com/PrivateTr/git_git/raw/master/
 
 wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
 
-wget -O /tmp/Colombus-Eiffel.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Colombus/Eiffel.m3u8"
+wget -O /tmp/GoCast-Europa-Palacio.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Palacio.m3u8"
 
-wget -O /tmp/Commonwealth-Hollywood.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Commonwealth/Hollywood.m3u8"
+wget -O /tmp/GoCast-Europa-Kremlin.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Kremlin.m3u8"
 
-wget -O /tmp/Commonwealth-Thames.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Commonwealth/Thames.m3u8"
+wget -O /tmp/GoCast-Europa-Versailles.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Versailles.m3u8"
 
-wget -O /tmp/Sea-Mekong.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Sea/Mekong.m3u8"
+wget -O /tmp/GoCast-Hindustan-Aranmanai.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/Aranmanai.m3u8"
 
-wget -O /tmp/MiddleKingdom-HuangHe.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Middle%20Kingdom/HuangHe.m3u8"
+wget -O /tmp/GoCast-Hindustan-RamBagh.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/RamBagh.m3u8"
 
-wget -O /tmp/MiddleKingdom-Yangtze.m3u "https://github.com/exodiver/IPTV/raw/master/Castpack/Middle%20Kingdom/Yangtze.m3u8"
+wget -O /tmp/GoCast-Hindustan-TajMahal.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/TajMahal.m3u8"
+
+wget -O /tmp/GoCast-Oriental-Eden.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Eden.m3u8"
+
+wget -O /tmp/GoCast-Oriental-Gugong.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Gugong.m3u8"
+
+wget -O /tmp/GoCast-Oriental-Istana.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Istana.m3u8"
+
+wget -O /tmp/hostiptv.m3u "http://hostiptv.com:8089/get.php?username=roch&password=roch123&type=m3u"
 
 wget -O /tmp/icone-iron_arabic2.m3u "https://tinyurl.com/t5qx3rk"
 
@@ -51,3 +59,4 @@ wget -O /tmp/arabic.m3u "http://190.2.143.8:25461/get.php?username=arabic&passwo
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
+wget -O /tmp/turkvod.txt "http://turkvod.co/10/iptv/freeiptv.php?uye_id=username=**************/password=**************/"
