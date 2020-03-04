@@ -54,7 +54,8 @@ wget -O /tmp/Belgiqueuser.m3u "http://source.vision-new.org:5000/get.php?usernam
 wget -O /tmp/BelgiquePro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 
 wget -O /tmp/arabic.m3u "http://190.2.143.8:25461/get.php?username=arabic&password=3AFfe8Lpvf&type=m3u"
+
+wget -O /tmp/deeplist.m3u "http://list.deeplist.nl:80/get.php?username=harri&password=123&type=m3u_plus"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
-wget -O /tmp/turkvod.txt "http://turkvod.co/10/iptv/freeiptv.php?uye_id=username=**************/password=**************/"
