@@ -10,19 +10,45 @@ opkg install enigma2-plugin-extensions-memfree
 opkg install enigma2-plugin-extensions-mediainfo
 opkg install enigma2-plugin-extensions-subssupport
 opkg install enigma2-plugin-extensions-mediaportal
+opkg install enigma2-plugin-systemplugins-serviceapp
 curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-extensions-turkvod_10.41_all.ipk -Lko /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk > /dev/null
 curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-extensions-freecccam_5.2_all.ipk -Lko /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk > /dev/null
 curl https://github.com/PrivateTr/git_git/raw/master/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk -Lko /tmp/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk > /dev/null
 curl https://github.com/PrivateTr/Zone_enigma/raw/master/enigma2-plugin-extensions-mpgz_all.ipk -Lko /tmp/enigma2-plugin-extensions-mpgz_all.ipk > /dev/null
 curl https://github.com/PrivateTr/Zone_enigma/raw/master/bootlogo.mvi -Lko /usr/share/bootlogo.mvi > /dev/null 2>&1
-opkg --force-overwrite install /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk
+
+
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/streamlinksrv_1.0.1_all.ipk -Lko /tmp/streamlinksrv_1.0.1_all.ipk
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/530e8b7a44ffb73d52532693896a2918_uchardet_0.0.6-r0_mips32el.ipk -Lko /tmp/530e8b7a44ffb73d52532693896a2918_uchardet_0.0.6-r0_mips32el.ipk
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/python-iso3166_0.8_all.ipk -Lko /tmp/python-iso3166_0.8_all.ipk
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/python-iso639_0.4.5_all.ipk -Lko /tmp/python-iso639_0.4.5_all.ipk
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/python-websocket_0.44.0_all.ipk -Lko /tmp/python-websocket_0.44.0_all.ipk
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/python-streamlink_0.10.0.r0_mod_all.ipk -Lko /tmp/python-streamlink_0.10.0.r0_mod_all.ipk
+curl https://github.com/PrivateTr/Zone_enigma/raw/master/python-singledispatch_3.4.0.3-r0_mips32el.ipk -Lko /tmp/python-singledispatch_3.4.0.3-r0_mips32el.ipk
+
+opkg --force-overwrite install /tmp/enigma2-plugin-extensions-turkvod_10.76_all.ipk
 opkg --force-overwrite install /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk
 opkg --force-overwrite install /tmp/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk
 opkg --force-overwrite install /tmp/enigma2-plugin-extensions-mpgz_all.ipk
-opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-extensions-turkvod_10.41_all.ipk
+opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-extensions-turkvod_10.76_all.ipk
 opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-extensions-freecccam_5.2_all.ipk
 opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-settings-remy.motor-channel-settings_V2.1_all.ipk
 opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-extensions-mpgz_all.ipk
+
+opkg --force-overwrite install /tmp/streamlinksrv_1.0.1_all.ipk
+opkg install --force-reinstall /tmp/streamlinksrv_1.0.1_all.ipk
+opkg --force-overwrite install /tmp/530e8b7a44ffb73d52532693896a2918_uchardet_0.0.6-r0_mips32el.ipk
+opkg install --force-reinstall /tmp/530e8b7a44ffb73d52532693896a2918_uchardet_0.0.6-r0_mips32el.ipk
+opkg --force-overwrite install /tmp/python-iso3166_0.8_all.ipk
+opkg install --force-reinstall /tmp/python-iso3166_0.8_all.ipk
+opkg --force-overwrite install /tmp/python-iso639_0.4.5_all.ipk
+opkg install --force-reinstall /tmp/python-iso639_0.4.5_all.ipk
+opkg --force-overwrite install /tmp/python-websocket_0.44.0_all.ipk
+opkg install --force-reinstall /tmp/python-websocket_0.44.0_all.ipk
+opkg --force-overwrite install /tmp/python-streamlink_0.10.0.r0_mod_all.ipk
+opkg install --force-reinstall /tmp/python-streamlink_0.10.0.r0_mod_all.ipk
+opkg --force-overwrite install /tmp/python-singledispatch_3.4.0.3-r0_mips32el.ipk
+opkg install --force-reinstall /tmp/python-singledispatch_3.4.0.3-r0_mips32el.ipk
 wget -qO - http://127.0.0.1/web/servicelistreload?mode=0 > /dev/null 2>&1
 opkg update && opkg upgrade
 echo 'BACKUP KURULUMU TAMAMLANDI CIHAZ YENIDEN BASLATILIYOR'
