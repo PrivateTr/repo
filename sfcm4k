@@ -12,9 +12,9 @@ opkg --force-overwrite install /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-
 opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk
 rm -rf /tmp/enigma2-plugin-softcams-remy-softcamapp-arm-4k_V1.0_all.ipk > /dev/null
 sleep 1
-opkg install oscam-emu
-opkg install ncam
-opkg install cccam
+opkg install enigma2-plugin-softcams-oscam-emu
+opkg install enigma2-plugin-softcams-ncam
+opkg install enigma2-plugin-softcams-cccam
 mv /usr/bin/oscam-emu /usr/bin/oscam_4K
 mv /usr/bin/ncam /usr/bin/ncam_4K
 rm -rf /etc/tuxbox/config/oscam-emu  >/dev/null 2>&1

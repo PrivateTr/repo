@@ -10,9 +10,9 @@ opkg install --force-reinstall /tmp/enigma2-plugin-softcams-remy-openatv-softcam
 sleep 1
 rm -rf /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.1_all.ipk  >/dev/null 2>&1
 sleep 1
-opkg install oscam-emu
-opkg install ncam
-opkg install cccam
+opkg install enigma2-plugin-softcams-oscam-emu
+opkg install enigma2-plugin-softcams-ncam
+opkg install enigma2-plugin-softcams-cccam
 mv /usr/bin/oscam-emu /usr/bin/oscam
 rm -rf /etc/tuxbox/config/oscam-emu  >/dev/null 2>&1
 rm -rf /etc/tuxbox/config/ncam  >/dev/null 2>&1
