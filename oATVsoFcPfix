@@ -12,6 +12,7 @@ rm -rf /tmp/enigma2-plugin-softcams-remy-openatv-softcampanel_V2.1_all.ipk  >/de
 sleep 1
 opkg install oscam-emu
 opkg install ncam
+opkg install cccam
 mv /usr/bin/oscam-emu /usr/bin/oscam
 rm -rf /etc/tuxbox/config/oscam-emu  >/dev/null 2>&1
 rm -rf /etc/tuxbox/config/ncam  >/dev/null 2>&1
