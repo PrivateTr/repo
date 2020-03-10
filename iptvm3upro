@@ -5,6 +5,8 @@ rm -rf /etc/enigma2/*.del > /dev/null
 rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
+wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://github.com/iptv-org/iptv/raw/master/channels/unsorted.m3u"
+
 wget -O /tmp/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
 
 wget -O /tmp/ReMy_IpTvList.m3u "https://github.com/PrivateTr/git_git/raw/master/roxy"
