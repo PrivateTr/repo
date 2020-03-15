@@ -6,6 +6,7 @@ if [ -f /var/lib/dpkg/status ]; then
 else
       WGET='/usr/bin/wget'
 fi         
+echo "*       *****AZ BEKLE GELIYOM*****       *"
 #### End Edit  
 LINE="************************************************************"
 FreeServer3=/usr/keys/CCcam.cfg
@@ -625,9 +626,9 @@ rm -f $FreeServer2
 rm -f $FreeServertmpa* $FreeServertmpb*
 sed '/^\s*$/d' $EmuServer
 echo "$LINE"
-echo "*                        ALDIK GELDIK                          *"
-echo "*                   mino60 - RAED - Fairbird               *"
-echo "*   SERVER_LAZIM_MI_BELES_TEPE_1_2 YE TESSEKKURLRR         *"
+echo "*      BEKLEDIGINE DEGDI :>>>    ALDIK GELDIK CORONA VAR _ PORNO IZLEME FAZLA       *"
+echo "*         TeSeKKüRLeR    mino60 - RAED - Fairbird               *"
+echo "*    NE ZAMAN ISTERSEN GEL   SERVER_LAZIM_MI_BELES_TEPE_1_2      *"
 echo "$LINE"
 #OScam Path
 cd /etc/tuxbox/config
