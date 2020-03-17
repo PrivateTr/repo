@@ -32,6 +32,8 @@ wget -O /tmp/GoCast-Oriental-Gugong.m3u "https://github.com/exodiver/IPTV/raw/ma
 
 wget -O /tmp/GoCast-Oriental-Istana.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Istana.m3u8"
 
+wget -O /tmp/4kiptv.m3u "http://4kiptv.top:25461/get.php?username=pXE6plswg1&password=1sWoC3GO8z&type=m3u"
+
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
 wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
