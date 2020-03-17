@@ -5,13 +5,14 @@ rm -rf /etc/enigma2/*.del > /dev/null
 rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
-wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://github.com/iptv-org/iptv/raw/master/channels/unsorted.m3u"
 
 wget -O /tmp/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
 
 wget -O /tmp/ReMy_IpTvList.m3u "https://github.com/PrivateTr/git_git/raw/master/roxy"
 
-wget -O /tmp/RegioFlix.m3u "http://srregio.net/e20/regioflix.m3u"
+wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://github.com/iptv-org/iptv/raw/master/channels/unsorted.m3u"
+
+wget -O /tmp/mikro_radio.m3u "http://i1.mikro.work:12345/get.php?username=radio&password=radio&type=m3u"
 
 wget -O /tmp/GoCast-Europa-Palacio.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Palacio.m3u8"
 
@@ -31,18 +32,6 @@ wget -O /tmp/GoCast-Oriental-Gugong.m3u "https://github.com/exodiver/IPTV/raw/ma
 
 wget -O /tmp/GoCast-Oriental-Istana.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Istana.m3u8"
 
-wget -O /tmp/hostiptv.m3u "http://hostiptv.com:8089/get.php?username=roch&password=roch123&type=m3u"
-
-wget -O /tmp/icone-iron_arabic2.m3u "https://tinyurl.com/t5qx3rk"
-
-wget -O /tmp/icone-iron_arabic.m3u "https://tinyurl.com/t5qx3rk"
-
-wget -O /tmp/icone-iron_Sport2.m3u "https://tinyurl.com/vzt42o2"
-
-wget -O /tmp/icone-iron_Sport1.m3u "https://tinyurl.com/vz8pwgc"
-
-wget -O /tmp/icone-iron_Sport.m3u "https://tinyurl.com/soyn3wv"
-
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
 wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
@@ -53,7 +42,9 @@ wget -O /tmp/rmcsport3.m3u "http://iptv7.premium-stv.com:25461/get.php?username=
 
 wget -O /tmp/gnsportfrshtf1.m3u "http://iptv7.premium-stv.com:25461/get.php?username=gnsportfrshtf1&password=fqzo522Da264&type=m3u"
 
-wget -O /tmp/Belgiqueuser.m3u "http://source.vision-new.org:5000/get.php?username=BELGuser&password=pro2&type=m3u"
+wget -O /tmp/futuretvplus.m3u "http://futuretvplus.com:25461/get.php?username=futurito&password=futurito&type=m3u"
+
+wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
