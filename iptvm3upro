@@ -6,39 +6,43 @@ rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
 
-wget -O /tmp/XXpremium.m3u "https://github.com/PrivateTr/git_git/raw/master/roxyplus"
+wget -O /tmp/XXpremium.m3u "https://remyteam-org.github.io/channels/roxyplus"
 
-wget -O /tmp/ReMy_IpTvList.m3u "https://github.com/PrivateTr/git_git/raw/master/roxy"
+wget -O /tmp/ReMy_IpTvList.m3u "https://remyteam-org.github.io/channels/roxy"
 
-wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://github.com/iptv-org/iptv/raw/master/channels/unsorted.m3u"
+wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://remyteam-org.github.io/channels/unsorted.m3u"
 
-wget -O /tmp/mikro_radio.m3u "http://i1.mikro.work:12345/get.php?username=radio&password=radio&type=m3u"
+wget -O /tmp/Mikro_Radio.m3u "http://i1.mikro.work:12345/get.php?username=radio&password=radio&type=m3u"
 
 wget -O /tmp/ARAP_FILM.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
+
+wget -O /tmp/GoCast2-Oriental-Istana2.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast2/Oriental/Istana.m3u8"
+
+wget -O /tmp/GoCast-Oriental-Istana.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Istana.m3u8"
+
+wget -O /tmp/GoCast-Oriental-Gugong.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Gugong.m3u8"
+
+wget -O /tmp/GoCast-Oriental-Eden.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Eden.m3u8"
+
+wget -O /tmp/GoCast-Hindustan-TajMahal.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/TajMahal.m3u8"
+
+wget -O /tmp/GoCast-Hindustan-RamBagh.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/RamBagh.m3u8"
+
+wget -O /tmp/GoCast-Hindustan-Aranmanai.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/Aranmanai.m3u8"
+
+wget -O /tmp/GoCast-Europa-Versailles.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Versailles.m3u8"
 
 wget -O /tmp/GoCast-Europa-Palacio.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Palacio.m3u8"
 
 wget -O /tmp/GoCast-Europa-Kremlin.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Kremlin.m3u8"
 
-wget -O /tmp/GoCast-Europa-Versailles.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Versailles.m3u8"
-
-wget -O /tmp/GoCast-Hindustan-Aranmanai.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/Aranmanai.m3u8"
-
-wget -O /tmp/GoCast-Hindustan-RamBagh.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/RamBagh.m3u8"
-
-wget -O /tmp/GoCast-Hindustan-TajMahal.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Hindustan/TajMahal.m3u8"
-
-wget -O /tmp/GoCast-Oriental-Eden.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Eden.m3u8"
-
-wget -O /tmp/GoCast-Oriental-Gugong.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Gugong.m3u8"
-
-wget -O /tmp/GoCast-Oriental-Istana.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Oriental/Istana.m3u8"
+wget -O /tmp/GoCast-Europa-Buckingham.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Buckingham.m3u8"
 
 wget -O /tmp/4kiptv.m3u "http://4kiptv.top:25461/get.php?username=pXE6plswg1&password=1sWoC3GO8z&type=m3u"
 
-wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
-
 wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
+
+wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
 
 wget -O /tmp/rmcsport5.m3u "http://iptv7.premium-stv.com:25461/get.php?username=rmcsport5&password=2350888447&type=m3u"
 
@@ -46,9 +50,7 @@ wget -O /tmp/rmcsport3.m3u "http://iptv7.premium-stv.com:25461/get.php?username=
 
 wget -O /tmp/gnsportfrshtf1.m3u "http://iptv7.premium-stv.com:25461/get.php?username=gnsportfrshtf1&password=fqzo522Da264&type=m3u"
 
-wget -O /tmp/futuretvplus.m3u "http://futuretvplus.com:25461/get.php?username=futurito&password=futurito&type=m3u"
-
-wget -O /tmp/sourcebelgiquepro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
+wget -O /tmp/Belgiquepro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
