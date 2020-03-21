@@ -14,6 +14,8 @@ wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://github.com/iptv-org/iptv/raw/master
 
 wget -O /tmp/mikro_radio.m3u "http://i1.mikro.work:12345/get.php?username=radio&password=radio&type=m3u"
 
+wget -O /tmp/ARAP_FILM.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
+
 wget -O /tmp/GoCast-Europa-Palacio.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Palacio.m3u8"
 
 wget -O /tmp/GoCast-Europa-Kremlin.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Kremlin.m3u8"
