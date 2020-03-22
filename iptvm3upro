@@ -6,11 +6,9 @@ rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
 
-wget -O /tmp/XXpremium.m3u "https://remyteam-org.github.io/channels/roxyplus"
+wget -O /tmp/ReMy_XxX.m3u "https://remytr-org.github.io/enigma_turk_team/remy_xxx.m3u"
 
-wget -O /tmp/ReMy_IpTvList.m3u "https://remyteam-org.github.io/channels/roxy"
-
-wget -O /tmp/YASAK_BOLGE_DIKKAT.m3u "https://remyteam-org.github.io/channels/unsorted.m3u"
+wget -O /tmp/ReMy_Premium.m3u "https://remytr-org.github.io/enigma_turk_team/remy_premium.m3u"
 
 wget -O /tmp/Mikro_Radio.m3u "http://i1.mikro.work:12345/get.php?username=radio&password=radio&type=m3u"
 
