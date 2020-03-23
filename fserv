@@ -32,14 +32,14 @@ HTTPSERV30="http://ia601509.us.archive.org/5/items/dreamosat/free-server7.txt"
 HTTPSERV31="http://ia601509.us.archive.org/5/items/dreamosat/free-server8.txt"                                     
 HTTPSERV32="http://ia601509.us.archive.org/5/items/dreamosat/free-server9.txt"                            
 HTTPSERV33="http://ia601509.us.archive.org/5/items/dreamosat/free-server10.txt"                                      
-HTTPSERV34="https://www.freecamtv.com/trial1.php"  
-HTTPSERV35="http://cccamstore.tv/free-server.php"
+#HTTPSERV34="https://www.freecamtv.com/trial1.php"  
+#HTTPSERV35="http://cccamstore.tv/free-server.php"
 HTTPSERV36="https://thecccam.com/cccam-free.php"
 HTTPSERV37="http://bosscccam.co/Test.php" 
 HTTPSERV38="https://cccamsiptv.com/cccamfree/get.php"
-HTTPSERV39="https://iptvkiller.com/cccamfree/get.php"
+#HTTPSERV39="https://iptvkiller.com/cccamfree/get.php"
 HTTPSERV40="https://mycccam.shop/free-cccam.php" 
-HTTPSERV41="http://cccamgood.com/free/get2.php"
+#HTTPSERV41="http://cccamgood.com/free/get2.php"
 HTTPSERV42="https://cccam.zone/FREEN12/new0.php"
 HTTPSERV43="https://premium-cccam.com/sv1.php"
 HTTPSERV44="http://buyiptvcode.com/free6/get2.php"
@@ -58,7 +58,7 @@ HTTPSERV56="https://cccam.zone/FREEN12/new0.php"
 HTTPSERV57="http://cccammania.com/free4/get2.php" 
 HTTPSERV58="http://cccamgenerador.com/gratis/get2.php"   
 #HTTPSERV59="https://oscamlive.com/cccam-server-test/cccam-free-2019/"
-HTTPSERV60="https://s.cccamkey.com/cccam24.php"
+#HTTPSERV60="https://s.cccamkey.com/cccam24.php"
 HTTPSERV61="http://infosat.satunivers.tv/cgn/generatejdid.php"
 HTTPSERV62="https://iptvfree.ch/cccamfree/get.php"
 #HTTPSERV63="https://www.realcccam.com/freecccam/index.php"
@@ -109,14 +109,14 @@ FreeServertmpb30=/tmp/freeservrb30
 FreeServertmpb31=/tmp/freeservrb31
 FreeServertmpb32=/tmp/freeservrb32
 FreeServertmpb33=/tmp/freeservrb33
-FreeServertmpb34=/tmp/freeservrb34
-FreeServertmpb35=/tmp/freeservrb35
+#FreeServertmpb34=/tmp/freeservrb34
+#FreeServertmpb35=/tmp/freeservrb35
 FreeServertmpb36=/tmp/freeservrb36
 FreeServertmpb37=/tmp/freeservrb37
 FreeServertmpb38=/tmp/freeservrb38
-FreeServertmpb39=/tmp/freeservrb39
+#FreeServertmpb39=/tmp/freeservrb39
 FreeServertmpb40=/tmp/freeservrb40
-FreeServertmpb41=/tmp/freeservrb41
+#FreeServertmpb41=/tmp/freeservrb41
 FreeServertmpb42=/tmp/freeservrb42
 FreeServertmpb43=/tmp/freeservrb43
 FreeServertmpb44=/tmp/freeservrb44
@@ -135,7 +135,7 @@ FreeServertmpb56=/tmp/freeservrb56
 FreeServertmpb57=/tmp/freeservrb57
 FreeServertmpb58=/tmp/freeservrb58
 #FreeServertmpb59=/tmp/freeservrb59
-FreeServertmpb60=/tmp/freeservrb60
+#FreeServertmpb60=/tmp/freeservrb60
 FreeServertmpb61=/tmp/freeservrb61
 FreeServertmpb62=/tmp/freeservrb62
 #FreeServertmpb63=/tmp/freeservrb63
@@ -186,14 +186,14 @@ FreeServertmpa30=/tmp/freeservra30
 FreeServertmpa31=/tmp/freeservra31
 FreeServertmpa32=/tmp/freeservra32
 FreeServertmpa33=/tmp/freeservra33
-FreeServertmpa34=/tmp/freeservra34
-FreeServertmpa35=/tmp/freeservra35
+#FreeServertmpa34=/tmp/freeservra34
+#FreeServertmpa35=/tmp/freeservra35
 FreeServertmpa36=/tmp/freeservra36
 FreeServertmpa37=/tmp/freeservra37
 FreeServertmpa38=/tmp/freeservra38
-FreeServertmpa39=/tmp/freeservra39
+#FreeServertmpa39=/tmp/freeservra39
 FreeServertmpa40=/tmp/freeservra40
-FreeServertmpa41=/tmp/freeservra41
+#FreeServertmpa41=/tmp/freeservra41
 FreeServertmpa42=/tmp/freeservra42
 FreeServertmpa43=/tmp/freeservra43
 FreeServertmpa44=/tmp/freeservra44
@@ -212,7 +212,7 @@ FreeServertmpa56=/tmp/freeservra56
 FreeServertmpa57=/tmp/freeservra57
 FreeServertmpa58=/tmp/freeservra58
 #FreeServertmpa59=/tmp/freeservra59
-FreeServertmpa60=/tmp/freeservra60
+#FreeServertmpa60=/tmp/freeservra60
 FreeServertmpa61=/tmp/freeservra61
 FreeServertmpa62=/tmp/freeservra62
 #FreeServertmpa63=/tmp/freeservra63
@@ -241,14 +241,14 @@ $WGET -O $FreeServertmpa30 $HTTPSERV30 > /dev/null 2>&1
 $WGET -O $FreeServertmpa31 $HTTPSERV31 > /dev/null 2>&1
 $WGET -O $FreeServertmpa32 $HTTPSERV32 > /dev/null 2>&1
 $WGET -O $FreeServertmpa33 $HTTPSERV33 > /dev/null 2>&1
-$WGET -O $FreeServertmpa34 $HTTPSERV34 > /dev/null 2>&1
-$WGET -O $FreeServertmpa35 $HTTPSERV35 > /dev/null 2>&1
+#$WGET -O $FreeServertmpa34 $HTTPSERV34 > /dev/null 2>&1
+#$WGET -O $FreeServertmpa35 $HTTPSERV35 > /dev/null 2>&1
 $WGET -O $FreeServertmpa36 $HTTPSERV36 > /dev/null 2>&1
 $WGET -O $FreeServertmpa37 $HTTPSERV37 > /dev/null 2>&1
 $WGET -O $FreeServertmpa38 $HTTPSERV38 > /dev/null 2>&1
-$WGET -O $FreeServertmpa39 $HTTPSERV39 > /dev/null 2>&1
+#$WGET -O $FreeServertmpa39 $HTTPSERV39 > /dev/null 2>&1
 $WGET -O $FreeServertmpa40 $HTTPSERV40 > /dev/null 2>&1
-$WGET -O $FreeServertmpa41 $HTTPSERV41 > /dev/null 2>&1
+#$WGET -O $FreeServertmpa41 $HTTPSERV41 > /dev/null 2>&1
 $WGET -O $FreeServertmpa42 $HTTPSERV42 > /dev/null 2>&1
 $WGET -O $FreeServertmpa43 $HTTPSERV43 > /dev/null 2>&1
 $WGET -O $FreeServertmpa44 $HTTPSERV44 > /dev/null 2>&1
@@ -267,7 +267,7 @@ $WGET -O $FreeServertmpa56 $HTTPSERV56 > /dev/null 2>&1
 $WGET -O $FreeServertmpa57 $HTTPSERV57 > /dev/null 2>&1
 $WGET -O $FreeServertmpa58 $HTTPSERV58 > /dev/null 2>&1
 #$WGET -O $FreeServertmpa59 $HTTPSERV59 > /dev/null 2>&1
-$WGET -O $FreeServertmpa60 $HTTPSERV60 > /dev/null 2>&1
+#$WGET -O $FreeServertmpa60 $HTTPSERV60 > /dev/null 2>&1
 $WGET -O $FreeServertmpa61 $HTTPSERV61 > /dev/null 2>&1
 $WGET -O $FreeServertmpa62 $HTTPSERV62 > /dev/null 2>&1
 #$WGET -O $FreeServertmpa63 $HTTPSERV63 > /dev/null 2>&1
@@ -318,14 +318,14 @@ sed -ne '/C:/ p' $FreeServertmpa30 > $FreeServertmpb30
 sed -ne '/C:/ p' $FreeServertmpa31 > $FreeServertmpb31
 sed -ne '/C:/ p' $FreeServertmpa32 > $FreeServertmpb32
 sed -ne '/C:/ p' $FreeServertmpa33 > $FreeServertmpb33
-sed -ne '/C:/ p' $FreeServertmpa34 > $FreeServertmpb34
-sed -ne '/C:/ p' $FreeServertmpa35 > $FreeServertmpb35
+#sed -ne '/C:/ p' $FreeServertmpa34 > $FreeServertmpb34
+#sed -ne '/C:/ p' $FreeServertmpa35 > $FreeServertmpb35
 sed -ne '/C:/ p' $FreeServertmpa36 > $FreeServertmpb36
 sed -ne '/c:/ p' $FreeServertmpa37 > $FreeServertmpb37
 sed -ne '/C:/ p' $FreeServertmpa38 > $FreeServertmpb38
-sed -ne '/C:/ p' $FreeServertmpa39 > $FreeServertmpb39
+#sed -ne '/C:/ p' $FreeServertmpa39 > $FreeServertmpb39
 sed -ne '/C:/ p' $FreeServertmpa40 > $FreeServertmpb40
-sed -ne '/C:/ p' $FreeServertmpa41 > $FreeServertmpb41
+#sed -ne '/C:/ p' $FreeServertmpa41 > $FreeServertmpb41
 sed -ne '/C:/ p' $FreeServertmpa42 > $FreeServertmpb42
 sed -ne '/C:/ p' $FreeServertmpa43 > $FreeServertmpb43
 sed -ne '/C:/ p' $FreeServertmpa44 > $FreeServertmpb44
@@ -344,7 +344,7 @@ sed -ne '/C:/ p' $FreeServertmpa56 > $FreeServertmpb56
 sed -ne '/C:/ p' $FreeServertmpa57 > $FreeServertmpb57  
 sed -ne '/C:/ p' $FreeServertmpa58 > $FreeServertmpb58
 #sed -ne '/C:/ p' $FreeServertmpa59 > $FreeServertmpb59
-sed -ne '/C:/ p' $FreeServertmpa60 > $FreeServertmpb60
+#sed -ne '/C:/ p' $FreeServertmpa60 > $FreeServertmpb60
 sed -ne '/C:/ p' $FreeServertmpa61 > $FreeServertmpb61
 sed -ne '/C:/ p' $FreeServertmpa62 > $FreeServertmpb62
 #sed -ne '/C:/ p' $FreeServertmpa63 > $FreeServertmpb63
@@ -395,14 +395,14 @@ FreeServertmpc30=`cat $FreeServertmpb30`
 FreeServertmpc31=`cat $FreeServertmpb31`
 FreeServertmpc32=`cat $FreeServertmpb32`
 FreeServertmpc33=`cat $FreeServertmpb33`
-FreeServertmpc34=`cat $FreeServertmpb34`
-FreeServertmpc35=`cat $FreeServertmpb35`
+#FreeServertmpc34=`cat $FreeServertmpb34`
+#FreeServertmpc35=`cat $FreeServertmpb35`
 FreeServertmpc36=`cat $FreeServertmpb36`
 FreeServertmpc37=`cat $FreeServertmpb37`
 FreeServertmpc38=`cat $FreeServertmpb38`
-FreeServertmpc39=`cat $FreeServertmpb39`
+#FreeServertmpc39=`cat $FreeServertmpb39`
 FreeServertmpc40=`cat $FreeServertmpb40`
-FreeServertmpc41=`cat $FreeServertmpb41`
+#FreeServertmpc41=`cat $FreeServertmpb41`
 FreeServertmpc42=`cat $FreeServertmpb42`
 FreeServertmpc43=`cat $FreeServertmpb43`
 FreeServertmpc44=`cat $FreeServertmpb44`
@@ -421,7 +421,7 @@ FreeServertmpc56=`cat $FreeServertmpb56`
 FreeServertmpc57=`cat $FreeServertmpb57`
 FreeServertmpc58=`cat $FreeServertmpb58`
 #FreeServertmpc59=`cat $FreeServertmpb59`
-FreeServertmpc60=`cat $FreeServertmpb60`
+#FreeServertmpc60=`cat $FreeServertmpb60`
 FreeServertmpc61=`cat $FreeServertmpb61`
 FreeServertmpc62=`cat $FreeServertmpb62`
 #FreeServertmpc63=`cat $FreeServertmpb63`
@@ -472,14 +472,14 @@ echo $FreeServertmpc30 >> $FreeServer2
 echo $FreeServertmpc31 >> $FreeServer2
 echo $FreeServertmpc32 >> $FreeServer2
 echo $FreeServertmpc33 >> $FreeServer2
-echo $FreeServertmpc34 >> $FreeServer2
-echo $FreeServertmpc35 >> $FreeServer2
+#echo $FreeServertmpc34 >> $FreeServer2
+#echo $FreeServertmpc35 >> $FreeServer2
 echo $FreeServertmpc36 >> $FreeServer2
 echo $FreeServertmpc37 >> $FreeServer2
 echo $FreeServertmpc38 >> $FreeServer2
-echo $FreeServertmpc39 >> $FreeServer2
+#echo $FreeServertmpc39 >> $FreeServer2
 echo $FreeServertmpc40 >> $FreeServer2
-echo $FreeServertmpc41 >> $FreeServer2
+#echo $FreeServertmpc41 >> $FreeServer2
 echo $FreeServertmpc42 >> $FreeServer2
 echo $FreeServertmpc43 >> $FreeServer2
 echo $FreeServertmpc44 >> $FreeServer2
@@ -498,7 +498,7 @@ echo $FreeServertmpc56 >> $FreeServer2
 echo $FreeServertmpc57 >> $FreeServer2
 echo $FreeServertmpc58 >> $FreeServer2
 #echo $FreeServertmpc59 >> $FreeServer2
-echo $FreeServertmpc60 >> $FreeServer2
+#echo $FreeServertmpc60 >> $FreeServer2
 echo $FreeServertmpc61 >> $FreeServer2
 echo $FreeServertmpc62 >> $FreeServer2
 #echo $FreeServertmpc63 >> $FreeServer2
