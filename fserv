@@ -6,12 +6,12 @@ if [ -f /var/lib/dpkg/status ]; then
 else
       WGET='/usr/bin/wget'
 fi         
-echo "         *  Ne garip degil mi  *"
-echo "         *  Yillardir cocuklarin olumune sessiz kalan bir Dunya  *"
-echo "         *  cocuklari öLDüRMEYEN  *"
-echo "         *  bir virusle sinaniyor  *"
-echo "         *  RABBiM' in adaleti  *"
-echo "         *  YüCE RABBiM AiLELERiMIZi VE BiZLERi KORUSUN  *"
+echo "*           Ne Garip Degil Mi  *"
+echo "*           Yillardir Cocuklarin OLüMüNE Sessiz Kalan Bir Dunya  *"
+echo "*           Cocuklari OLDüRMEYEN  *"
+echo "*           BiR Virüsle SINANIYOR  *"
+echo "*           RABBiM' in adaleti  *"
+echo "*           YüCE RABBiM AiLELERiMIZi VE BiZLERi KORUSUN  *"
 #### End Edit  
 LINE="************************************************************"
 FreeServer3=/usr/keys/CCcam.cfg
@@ -631,14 +631,14 @@ rm -f $FreeServer2
 rm -f $FreeServertmpa* $FreeServertmpb*
 sed '/^\s*$/d' $EmuServer
 echo "$LINE"
-echo "* Kiymetli Muslumanlar, Tedbirlere Uyalim, Evimizde Kalalim ve Dua Edelim.*"
-echo "* *"
-echo "* Yuce Allah Devletimizi ve Milletimizi Her Turlu Felaketten Korusun.*"
-echo "* *"
-echo "* Ulkemizi ve Dunyamizi bu Salgindan En Kisa Zamanda Kurtarsin.*"
-echo "* *"
-echo "* Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.*"
-echo "* *"
+echo "* Kiymetli Dostlar,Tedbirlere Uyalim,Evimizde Kalalim ve Dua Edelim.  *"
+echo "*                                                                     *"
+echo "* Yüce RABBiM Devletimizi ve Milletimizi Her Türlü Felaketten Korusun.*"
+echo "*                                                                     *"
+echo "* ülkemizi ve Dünyamizi bu Salgindan En Kisa Zamanda Kurtarsin.       *"
+echo "*                                                                     *"
+echo "* Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.         *"
+echo "*                                                                     *"
 echo "$LINE"
 #OScam Path
 cd /etc/tuxbox/config
