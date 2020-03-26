@@ -21,12 +21,13 @@ FreeServer=/etc/CCcam.cfg
 EmuServer='/etc/CCcam.cfg'
 FreeServertmpa=/tmp/freeservra*
 FreeServertmpb=/tmp/freeservrb*
+rm -f /etc/CCcam.cfg-opkg
 rm -f $FreeServer > /dev/null 2>&1
 rm -f $FreeServer2 > /dev/null 2>&1
 rm -f $FreeServertmpa* > /dev/null 2>&1
 rm -f $FreeServertmpb* > /dev/null 2>&1
 #HOST             
-HTTPSERV1="http://ia601509.us.archive.org/5/items/dreamosat/CCCAM.txt"  
+HTTPSERV1="https://raw.githubusercontent.com/PrivateTr/repo/master/CCCAM.txt"  
 HTTPSERV24="http://ia601509.us.archive.org/5/items/dreamosat/free-server1.txt"
 HTTPSERV25="http://ia601509.us.archive.org/5/items/dreamosat/free-server2.txt"   
 HTTPSERV26="http://ia601509.us.archive.org/5/items/dreamosat/free-server3.txt"  
