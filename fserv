@@ -12,15 +12,6 @@ echo "*           Cocuklari OLDüRMEYEN  *"
 echo "*           BiR Virüsle SINANIYOR  *"
 echo "*           RABBiM' in adaleti  *"
 echo "*           YüCE RABBiM AiLELERiMIZi VE BiZLERi KORUSUN  *"
-echo "*                                                                     *"
-echo "* Kiymetli Dostlar,Tedbirlere Uyalim,Evimizde Kalalim ve Dua Edelim.  *"
-echo "*                                                                     *"
-echo "* Yüce RABBiM Devletimizi ve Milletimizi Her Türlü Felaketten Korusun.*"
-echo "*                                                                     *"
-echo "* ülkemizi ve Dünyamizi bu Salgindan En Kisa Zamanda Kurtarsin.       *"
-echo "*                                                                     *"
-echo "* Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.         *"
-echo "*       
 #### End Edit  
 LINE="************************************************************"
 FreeServer3=/usr/keys/CCcam.cfg
@@ -639,8 +630,15 @@ cat $FreeServer > $FreeServer3
 rm -f $FreeServer2
 rm -f $FreeServertmpa* $FreeServertmpb*
 sed '/^\s*$/d' $EmuServer
-echo "$LINE"                                                              *"
-echo "* RABBiM Gorünür Gorünmez Tüm Felaketlerden Koru UMMETi MUHAMMED'i.*"
+echo "$LINE"
+echo "* Kiymetli Dostlar,Tedbirlere Uyalim,Evimizde Kalalim ve Dua Edelim.  *"
+echo "*                                                                     *"
+echo "* Yüce RABBiM Devletimizi ve Milletimizi Her Türlü Felaketten Korusun.*"
+echo "*                                                                     *"
+echo "* ülkemizi ve Dünyamizi bu Salgindan En Kisa Zamanda Kurtarsin.       *"
+echo "*                                                                     *"
+echo "* Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.         *"
+echo "*                                                                     *"
 echo "$LINE"
 #OScam Path
 cd /etc/tuxbox/config
