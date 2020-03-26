@@ -1,17 +1,17 @@
 #!/bin/sh
-#@mino60 By RAED 2020
-#### EDit By RAED To DreamOS OE2.5/2.6
+#@Enigma_Turk_Team_TeaM
+#### EDit By ReMyTr OE2.5/2.6
 if [ -f /var/lib/dpkg/status ]; then
       WGET='/usr/bin/wget2 --no-check-certificate'
 else
       WGET='/usr/bin/wget'
 fi         
-echo "*  Ne garip degil mi  *"
-echo "*  Yillardir cocuklarin olumune sessiz kalan bir Dunya  *"
-echo "*  cocuklari öLDüRMEYEN  *"
-echo "*  bir virusle sinaniyor  *"
-echo "*  RABBiM' in adaleti  *"
-echo "*  YüCE RABBiM AiLELERiMIZi VE BiZLERi KORUSUN  *"
+echo "         *  Ne garip degil mi  *"
+echo "         *  Yillardir cocuklarin olumune sessiz kalan bir Dunya  *"
+echo "         *  cocuklari öLDüRMEYEN  *"
+echo "         *  bir virusle sinaniyor  *"
+echo "         *  RABBiM' in adaleti  *"
+echo "         *  YüCE RABBiM AiLELERiMIZi VE BiZLERi KORUSUN  *"
 #### End Edit  
 LINE="************************************************************"
 FreeServer3=/usr/keys/CCcam.cfg
@@ -631,10 +631,14 @@ rm -f $FreeServer2
 rm -f $FreeServertmpa* $FreeServertmpb*
 sed '/^\s*$/d' $EmuServer
 echo "$LINE"
-echo "*   Kiymetli Muslumanlar, Tedbirlere Uyalim, Evimizde Kalalim ve Dua Edelim.   *"
-echo "*   Yuce Allah Devletimizi ve Milletimizi Her Turlu Felaketten Korusun.   *"
-echo "*   Ulkemizi ve Dunyamizi bu Salgindan En Kisa Zamanda Kurtarsin.   *"
-echo "*   Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.   *"
+echo "* Kiymetli Muslumanlar, Tedbirlere Uyalim, Evimizde Kalalim ve Dua Edelim.*"
+echo "* *"
+echo "* Yuce Allah Devletimizi ve Milletimizi Her Turlu Felaketten Korusun.*"
+echo "* *"
+echo "* Ulkemizi ve Dunyamizi bu Salgindan En Kisa Zamanda Kurtarsin.*"
+echo "* *"
+echo "* Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.*"
+echo "* *"
 echo "$LINE"
 #OScam Path
 cd /etc/tuxbox/config
