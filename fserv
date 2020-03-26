@@ -667,12 +667,13 @@ PASS=$(echo $line|cut -d"$FS" -f5)
 echo -n "."
 echo "[reader]" >> $OUTPUT2
 echo "label = $SERVER" >> $OUTPUT2
+echo "enable = 1" >> $OUTPUT2
 echo "protocol = cccam" >> $OUTPUT2
 echo "device = $SERVER,$PORT" >> $OUTPUT2
 echo "user = $USER" >> $OUTPUT2		
 echo "password = $PASS" >> $OUTPUT2		
 echo "disablecrccws_only_for = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000" >> $OUTPUT2
-echo "inactivitytimeout = 30" >> $OUTPUT2
+echo "inactivitytimeout = 1" >> $OUTPUT2
 echo "group = 1" >> $OUTPUT2
 echo "cccversion = 2.3.2" >> $OUTPUT2
 echo "ccckeepalive = 1" >> $OUTPUT2
@@ -709,6 +710,7 @@ PASS=$(echo $line|cut -d"$FS" -f5)
 echo -n "."
 echo "[reader]" >> $OUTPUT2
 echo "label = $SERVER" >> $OUTPUT2
+echo "enable = 1" >> $OUTPUT2
 echo "protocol = cccam" >> $OUTPUT2
 echo "device = $SERVER,$PORT" >> $OUTPUT2
 echo "user = $USER" >> $OUTPUT2		
@@ -724,47 +726,4 @@ echo "" >> $OUTPUT
 done < conv.tmp
 rm conv.tmp
 echo ""
-#GCam Path
-cd /etc/tuxbox/config
-OUTPUT=/etc/tuxbox/config/gcam.server
-OUTPUT2=/etc/tuxbox/config/gcam.server
-SERVER=/tmp/gcam.options
-SERVER=gcam.options
-#function convert_servers 
-OUTPUT="/etc/tuxbox/config/gcam.server"
-OUTPUT2=/etc/tuxbox/config/gcam.server
-HTTPSERV="https://raw.githubusercontent.com/PrivateTr/repo/master/oscam.server"         
-$WGET -O $SERVER $HTTPSERV > /dev/null 2>&1 
-echo -n "Converting C lines"        
-cat gcam.server > $OUTPUT
-cat gcam.options >> $OUTPUT
-grep -i "^C:.*" $FreeServer > conv.tmp
-FS=" " 
-while read line
-do
-F1=$(echo $line|cut -d"$FS" -f1)
-SERVER=$(echo $line|cut -d"$FS" -f2)
-PORT=$(echo $line|cut -d"$FS" -f3)
-USER=$(echo $line|cut -d"$FS" -f4)
-PASS=$(echo $line|cut -d"$FS" -f5)
-#echo "SERVER: $SERVER PORT: $PORT USER: $USER PASS: $PASS"
-echo -n "."
-echo "[reader]" >> $OUTPUT2
-echo "label = $SERVER" >> $OUTPUT2
-echo "protocol = cccam" >> $OUTPUT2
-echo "device = $SERVER,$PORT" >> $OUTPUT2
-echo "user = $USER" >> $OUTPUT2		
-echo "password = $PASS" >> $OUTPUT2		
-echo "disablecrccws_only_for = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000" >> $OUTPUT2
-echo "inactivitytimeout = 30" >> $OUTPUT2
-echo "group = 1" >> $OUTPUT2
-echo "cccversion = 2.3.2" >> $OUTPUT2
-echo "ccckeepalive = 1" >> $OUTPUT2
-echo "audisabled = 1" >> $OUTPUT2
-echo "disablecrccws = 1" >> $OUTPUT2 				
-echo "" >> $OUTPUT
-done < conv.tmp
-rm conv.tmp
-echo ""
-
 exit 0
