@@ -6,13 +6,12 @@ if [ -f /var/lib/dpkg/status ]; then
 else
       WGET='/usr/bin/wget'
 fi         
-echo "*   *****CORONA VAR!! AZ BEKLE GELIYOM*****    *"
-echo "*   *****Ne garip deðil mi*****    *"
-echo "*   *****Yýllardýr çocuklarýn ölümüne sessiz kalan bir Dünya*****    *"
-echo "*   *****' çocuklarý ÖLDÜRMEYEN*****    *"
-echo "*   *****bir virüsle sýnanýyor*****    *"
-echo "*   *****RABBÝM' in adaleti*****    *"
-echo "*   *****YÜCE RABBÝM AÝLELERÝMIZÝ VE BÝZLERÝ KORUSUN*****    *"
+echo "*  Ne garip degil mi  *"
+echo "*  Yillardir cocuklarin olumune sessiz kalan bir Dunya  *"
+echo "*  cocuklari öLDüRMEYEN  *"
+echo "*  bir virusle sinaniyor  *"
+echo "*  RABBiM' in adaleti  *"
+echo "*  YüCE RABBiM AiLELERiMIZi VE BiZLERi KORUSUN  *"
 #### End Edit  
 LINE="************************************************************"
 FreeServer3=/usr/keys/CCcam.cfg
@@ -632,9 +631,10 @@ rm -f $FreeServer2
 rm -f $FreeServertmpa* $FreeServertmpb*
 sed '/^\s*$/d' $EmuServer
 echo "$LINE"
-echo "*   CORONA VAR!! YINEDE ALDIK GELDIK PORNO IZLEME FAZLA :-)))    *"
-echo "*         TeSeKKüRLeR    mino60 - RAED - Fairbird               *"
-echo "*    NE ZAMAN ISTERSEN GEL   SERVER_LAZIM_MI_BELES_TEPE_1_2      *"
+echo "*   Kiymetli Muslumanlar, Tedbirlere Uyalim, Evimizde Kalalim ve Dua Edelim.   *"
+echo "*   Yuce Allah Devletimizi ve Milletimizi Her Turlu Felaketten Korusun.   *"
+echo "*   Ulkemizi ve Dunyamizi bu Salgindan En Kisa Zamanda Kurtarsin.   *"
+echo "*   Saglik Calisanlarimizin ve Hastalarimizin Yardimcisi Olsun.   *"
 echo "$LINE"
 #OScam Path
 cd /etc/tuxbox/config
