@@ -6,11 +6,9 @@ rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
 
-wget -O /tmp/XxX.m3u "https://github.com/PrivateTr/git_git/raw/master/remy_xxx.m3u"
+wget -O /tmp/ReMy_XxX.m3u "https://github.com/PrivateTr/git_git/raw/master/remy_xxx.m3u"
 
 wget -O /tmp/ReMy_Premium.m3u "https://github.com/PrivateTr/git_git/raw/master/remy_premium.m3u"
-
-wget -O /tmp/Mikro_Radio.m3u "http://i1.mikro.work:12345/get.php?username=radio&password=radio&type=m3u"
 
 wget -O /tmp/ARAP_FILM.m3u "http://62.210.139.197:25461/get.php?username=test&password=test&type=m3u"
 
@@ -36,8 +34,6 @@ wget -O /tmp/GoCast-Europa-Kremlin.m3u "https://github.com/exodiver/IPTV/raw/mas
 
 wget -O /tmp/GoCast-Europa-Buckingham.m3u "https://github.com/exodiver/IPTV/raw/master/GoCast/Europa/Buckingham.m3u8"
 
-wget -O /tmp/4kiptv.m3u "http://4kiptv.top:25461/get.php?username=pXE6plswg1&password=1sWoC3GO8z&type=m3u"
-
 wget -O /tmp/iptvpro2.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22&password=W2T29z9cBP&type=m3u"
 
 wget -O /tmp/iptvpro.m3u "http://iptvpro.vision-new.org:8789/get.php?username=IPTVPRO22VODS22PRO2&password=W2T29z9cBPPRO2&type=m3u"
@@ -47,8 +43,6 @@ wget -O /tmp/rmcsport5.m3u "http://iptv7.premium-stv.com:25461/get.php?username=
 wget -O /tmp/rmcsport3.m3u "http://iptv7.premium-stv.com:25461/get.php?username=rmcsport3&password=1557539943&type=m3u"
 
 wget -O /tmp/gnsportfrshtf1.m3u "http://iptv7.premium-stv.com:25461/get.php?username=gnsportfrshtf1&password=fqzo522Da264&type=m3u"
-
-wget -O /tmp/Belgiquepro1.m3u "http://iptv8.premium-stv.com:2052/get.php?username=sourcebelgiquepro1&password=5578736030&type=m3u"
 sleep 1
 rm -rf /tmp/iptvm3upro
 exit 0
