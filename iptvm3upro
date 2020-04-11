@@ -6,6 +6,10 @@ rm -rf /etc/enigma2/*.tv_org
 rm -rf /etc/enigma2/*.tv_bak
 sleep 1
 
+wget -O /tmp/DMRWOLFIEINC_UK.m3u "https://github.com/DMRWOLFIEINC/iptv/blob/master/iptv3"
+
+wget -O /tmp/DMRWOLFIEINC_USA.m3u "https://github.com/DMRWOLFIEINC/iptv/raw/master/iptv2"
+
 wget -O /tmp/ReMy_XxX.m3u "https://github.com/PrivateTr/git_git/raw/master/remy_xxx.m3u"
 
 wget -O /tmp/ReMy_Premium.m3u "https://github.com/PrivateTr/git_git/raw/master/remy_premium.m3u"
